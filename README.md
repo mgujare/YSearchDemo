@@ -1,3 +1,3 @@
 # SearchSDKDemos
-Demo app that uses Yahoo Search SDK.
+Demo app that uses Yahoo Search SDK..
 
