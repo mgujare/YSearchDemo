@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="demo_search_tab_selected">#400090</color>
+    <color name="demo_search_tab_standard">#AAAAAA</color>
+    <color name="demo_search_tab_selected_bg">#ffe0e0e0</color>
+    <color name="demo_search_tab_unselected_bg">#ffffffff</color>
+    <color name="ysdemo_translucent_background">#99000000</color>
+</resources>
