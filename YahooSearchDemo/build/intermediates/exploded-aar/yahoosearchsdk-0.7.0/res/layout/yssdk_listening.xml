@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/listening_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/voice_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <View
+        android:id="@+id/top_padd"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"/>
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/yssdk_listening_cancel_button_height"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/yssdk_button_round_edges_white"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="@string/yssdk_cancel"
+        android:textColor="@color/ypurple"
+        android:textSize="@dimen/yssdk_button_fontsize"/>
+
+    <TextView
+        android:id="@+id/text_listeningStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@color/translucent_white"
+        android:gravity="center"
+        android:lines="3"
+        android:paddingBottom="36dp"
+        android:paddingTop="36dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:singleLine="false"
+        android:text="@string/yssdk_voice_listening"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <View
+        android:id="@+id/bottom_padd"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/microphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="60sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/ypurple"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card"
+    style="@style/Search.Suggest.Container.Card"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@drawable/yssdk_searchassist_bgd" >
+
+    <ImageView
+        android:id="@+id/image_icon"
+        style="@style/Search.Suggest.Container.Icon.Contact"
+        android:padding="8dp"
+        android:layout_gravity="left"/>
+
+    <TextView
+        android:id="@+id/text_icon"
+        style="@style/Search.Suggest.Container.Icon.Contact"
+        android:layout_gravity="left"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textColor="@color/yssdk_gray"
+        android:background="@drawable/yssdk_searchassist_bgd"
+        android:text="@string/yssdk_history_icon"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="49dp"
+            android:text="Stephanie Ciancio"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:ellipsize="start"
+            android:gravity="center_vertical" />
+
+        <View
+            android:id="@+id/queryBorderBottom"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_height="1px"
+            android:layout_marginLeft="49dp"
+            android:background="#cccccc"/>
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<com.yahoo.search.demo.view.CustomSearchAssistItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card"
+    style="@style/Search.Suggest.Container.Card"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@drawable/yssdk_suggest_item_background"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp">
+
+    <ImageView
+        android:id="@+id/icon"
+        style="@style/Search.Suggest.Container.Icon.Contact"
+        android:layout_margin="4dp"
+        android:src="@android:drawable/ic_menu_help"
+        />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/icon"
+        android:layout_toEndOf="@id/icon"
+        android:layout_marginTop="11dp"
+        android:text="Assist Text"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:ellipsize="start"
+        android:paddingRight="4dp"
+        />
+
+    <TextView
+        android:id="@+id/subtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/icon"
+        android:layout_toEndOf="@id/icon"
+        android:layout_below="@id/text"
+        android:layout_marginTop="2dp"
+        android:text="add something cool here"
+        android:textColor="#999999"
+        android:textSize="12sp"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:ellipsize="end"
+        />
+
+
+    <TextView
+        android:id="@+id/queryBorderBottom"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="1px"
+        android:background="#cccccc"
+        />
+
+</com.yahoo.search.demo.view.CustomSearchAssistItem><!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/src/main/res/layout/custom_assist.xml -->

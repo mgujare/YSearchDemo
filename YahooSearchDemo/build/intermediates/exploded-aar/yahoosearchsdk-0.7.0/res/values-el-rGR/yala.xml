@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file has been created by Yahoo! Android build system. DO NOT EDIT MANUALLY -->
+<!-- Synopsis:                                                                       -->
+<!-- Strings starting with !: -> This string is in the template file but not in the  -->
+<!--                             matching translation nor in the default translation.-->
+<!-- Strings starting with *: -> No matching translation (with matching locale )file -->
+<!--                             for the template file containing this string found. -->
+<!-- Strings starting with $: -> The string value is different in override. e.g. if  -->
+<!--                             it is defined in share and project but has different-->
+<!--                             value in share. If this on purpose ust @Override    -->
+<!--                             keyword inside the template comment to mark it it as-->
+<!--                             overriding the shave value on purpose.              -->
+<resources>
+	<string name="yssdk_app_title">Αναζήτηση Yahoo</string>
+	<string name="yssdk_processing">Επεξεργασία...</string>
+	<string name="yssdk_initializing">Γίνεται έναρξη...</string>
+	<string name="yssdk_share">Κοινή χρήση</string>
+	<string name="yssdk_search">Αναζήτηση</string>
+	<string name="yssdk_search_or_speak">Αναζ. ή ομιλία</string>
+	<string name="yssdk_search_for">Αναζήτηση για \"%1$s\"</string>
+	<string name="yssdk_kb">KB</string>
+	<string name="yssdk_mb">MB</string>
+	<string name="yssdk_voice_processing">Υπό επεξεργασία...</string>
+	<string name="yssdk_voice_listening">Σας ακούμε...</string>
+	<string name="yssdk_voice_error">Δεν καταλάβαμε. Προσπαθήστε πάλι.</string>
+	<string name="yssdk_cancel">Άκυρο</string>
+	<string name="yssdk_close">Κλείσιμο</string>
+	<string name="yssdk_safe_search">Ασφαλής αναζήτηση</string>
+	<string name="yssdk_setting_search_title">Ρυθμίσεις αναζήτησης</string>
+	<string name="yssdk_search_preferences_title">Προτιμήσεις αναζήτησης</string>
+	<string name="yssdk_clear_history_title">Διαγραφή ιστορικού</string>
+	<string name="yssdk_clear_history_summary">Διαγραφή ιστορικού αναζήτησης</string>
+	<string name="yssdk_show_all_history">Show All History</string>
+	<string name="yssdk_history_cleared">Το ιστορικό διαγράφηκε</string>
+	<string name="yssdk_network_error">Δεν βρέθηκε σύνδεση Internet.</string>
+	<string name="yssdk_request_error">Δεν είναι δυνατή η επεξεργασία του αιτήματός σας αυτήν τη στιγμή.</string>
+	<string name="yssdk_search_status_error">Η εμπειρία αναζήτησης έχει απενεργοποιηθεί</string>
+	<string name="yssdk_retry_button">Δοκιμάστε πάλι</string>
+	<string name="yssdk_dismiss_button">Απόρριψη</string>
+	<string name="yssdk_clear_history_warning_title">Διαγραφή ιστορικού αναζήτησης</string>
+	<string name="yssdk_clear_history_warning_text">Είστε σίγουροι;</string>
+	<string name="yssdk_yes">Ναι</string>
+	<string name="yssdk_no">Όχι</string>
+	<string name="yssdk_no_internet">Δεν είστε συνδεδεμένοι στο Internet. Ελέγξτε τη σύνδεση και προσπαθήστε ξανά.</string>
+	<string name="yssdk_settings_about">Σχετικά</string>
+	<string name="yssdk_open">Άνοιγμα</string>
+	<string name="yssdk_copy">Αντιγραφή</string>
+	<string name="yssdk_open_in_browser">Άνοιγμα στο πρόγραμμα περιήγησης</string>
+	<string name="yssdk_search_copyright">Ενδέχεται να υπόκειται σε πνευματικά δικαιώματα</string>
+	<string name="yssdk_no_web_results_found">Δεν βρέθηκαν αποτελέσματα web για:</string>
+	<string name="yssdk_no_image_results_found">Δεν βρέθηκαν αποτελέσματα εικόνων για:</string>
+	<string name="yssdk_no_video_results_found">Δεν βρέθηκαν αποτελέσματα βίντεο για:</string>
+	<string name="yssdk_no_local_results_found">Δεν βρέθηκαν τοπικά αποτελέσματα για:</string>
+	<string name="yssdk_suggestions">Προτάσεις:\nΒεβαιωθείτε ότι η ορθογραφία των λέξεων είναι σωστή.\nΔοκιμάστε πιο γενικευμένες λέξεις.\nΔοκιμάστε διαφορετικές λέξεις με την ίδια έννοια.</string>
+	<string name="yssdk_search_enhancement_no_trans">Enhanced by</string>
+	<string name="common.powered_by_bing">Με την ισχύ του Bing&amp;trade;</string>
+	<string name="yssdk_retry_button_text">Προσπαθήστε πάλι</string>
+	<string name="yssdk_result_error_suggestion_word">Προτάσεις:</string>
+	<string name="yssdk_result_error_suggestion_check_spelling">Ελέγξτε την ορθογραφία</string>
+	<string name="yssdk_result_error_suggestion_try_more_words">Δοκιμάστε πιο γενικευμένες λέξεις</string>
+	<string name="yssdk_result_error_try_word">Δοκιμή</string>
+	<string name="yssdk_result_error_web_search_button_text">Αναζήτηση στο web</string>
+	<string name="yssdk_web_search">Web</string>
+	<string name="yssdk_image_search">Εικόνες</string>
+	<string name="yssdk_video_search">Βίντεο</string>
+	<string name="yssdk_local_search">Κοντά</string>
+	<string name="yssdk_share_via">Κοινή χρήση μέσω</string>
+	<string name="yssdk_invalid_yhs_key">Μη έγκυρη αυτότητα εφαρμογής</string>
+	<string name="yssdk_development_mode">Η λειτουργία ανάπτυξης έχει ενεργοποιηθεί</string>
+	<string name="yssdk_safesearch_moderate">Μέτριο</string>
+	<string name="yssdk_safesearch_strict">Αυστηρό</string>
+	<string name="yssdk_safesearch_off">Deaktiveret</string>
+	<string name="yssdk_search_history">Ιστορικό αναζήτησης</string>
+	<string name="yssdk_search_history_enabled">Ενεργοποιήθηκε</string>
+	<string name="yssdk_search_history_disabled">Απενεργοποιήθηκε</string>
+	<string name="yssdk_safe_search_off_title">Φτάσατε σε μια περιοχή με ηλικιακό περιορισμό στην Αναζήτηση Yahoo</string>
+	<string name="yssdk_safe_search_off_terms">Αυτή η περιοχή περιέχει υλικό για ενήλικες που μπορεί να μην είναι κατάλληλο για νεότερους χρήστες.\n\nΑπενεργοποιώντας το φίλτρο περιεχομένου για ενήλικες, ενδέχεται να βρείτε υλικό ακατάλληλο για ανηλίκους. Εάν είστε κάτω των 18 ή δεν επιθυμείτε να συνεχίσετε, κάντε κλικ παρακάτω για να επιστρέψετε στην προηγούμενη σελίδα. Πατώντας το κουμπί \"Αποδέχομαι\", βεβαιώνετε ότι είστε τουλάχιστον 18 ετών και κατανοείτε τις προϋποθέσεις χρήσης.</string>
+	<string name="yssdk_safe_search_off_accept">Αποδέχομαι</string>
+	<string name="yssdk_safe_search_off_deny">Δεν αποδέχομαι</string>
+	<string name="yssdk_images_copyright_message">Οι εικόνες ενδέχεται να υπόκεινται σε πνευματικά δικαιώματα</string>
+	<string name="yssdk_image_copyright_message">Η εικόνα ενδέχεται να υπόκειται σε πνευματικά δικαιώματα</string>
+	<string name="yssdk_menu_send">Κοινή χρήση</string>
+	<string name="yssdk_menu_copy">Αντιγραφή συνδέσμου</string>
+	<string name="yssdk_menu_open">Άνοιγμα στο πρόγραμμα περιήγησης</string>
+	<string name="yssdk_webview_loading">Φόρτωση...</string>
+	<string name="yssdk_link_not_supported">Link not supported</string>
+	<string name="yssdk_menu_send_image">Κοινή χρήση</string>
+	<string name="yssdk_local_share">Κοινή χρήση</string>
+	<string name="yssdk_local_call">Κλήση</string>
+	<string name="yssdk_local_directions">Οδηγίες</string>
+	<string name="yssdk_local_menu">Μενού</string>
+	<string name="yssdk_local_opening_hours">Ώρες λειτουργίας</string>
+	<string name="yssdk_local_website">Ιστότοπος</string>
+	<string name="yssdk_local_today">Σήμερα</string>
+	<string name="yssdk_local_monday">Δευτέρα</string>
+	<string name="yssdk_local_tuesday">Τρίτη</string>
+	<string name="yssdk_local_wednesday">Τετάρτη</string>
+	<string name="yssdk_local_thursday">Πέμπτη</string>
+	<string name="yssdk_local_friday">Παρασκευή</string>
+	<string name="yssdk_local_saturday">Σάββατο</string>
+	<string name="yssdk_local_sunday">Κυριακή</string>
+	<string name="yssdk_local_view_more_yelp">Προβολή περισσότερων στο Yelp</string>
+	<string name="yssdk_local_address">Διεύθυνση</string>
+	<string name="yssdk_local_hours">Ώρες λειτουργίας</string>
+	<string name="yssdk_local_category">Κατηγορία</string>
+	<string name="yssdk_local_images">Εικόνες</string>
+	<string name="yssdk_local_reviews">αξιολογήσεις</string>
+	<string name="yssdk_local_review">αξιολόγηση</string>
+	<string name="yssdk_local_closed">Κλειστό</string>
+	<string name="yssdk_local_mi">μίλια</string>
+	<string name="yssdk_local_on">στις</string>
+	<string name="yssdk_local_no_location">Ενεργοποιήστε τις υπηρεσίες τοποθεσίας</string>
+	<string name="yssdk_video_word">Βίντεο</string>
+	<string name="cancel">Άκυρο</string>
+	<string name="app_name">Ταχυδρομείο</string>
+	<string name="loading">Φόρτωση\u2026</string>
+	<string name="edit">Επεξεργασία</string>
+	<string name="download_app">Η εφαρμογή %1$s δεν είναι εγκατεστημένη στη συσκευή σας. Θέλετε να εγκαταστήσετε την εφαρμογή %2$s;</string>
+	<string name="download_app_generic_partner">Η εφαρμογή %1$s δεν είναι εγκατεστημένη στη συσκευή σας. Επισκεφτείτε την αγορά που προτιμάτε για να την εγκαταστήσετε.</string>
+	<string name="ok">ΟΚ</string>
+	<string name="yes">Ναι</string>
+	<string name="no">Όχι</string>
+	<string name="app_not_available">Λυπούμαστε, το %1$s δεν είναι προς το παρόν διαθέσιμο.</string>
+	<string name="duration_format_hours">h \'ώρες,\' m \'λεπτά,\' s \'δευτερόλεπτα\'</string>
+	<string name="duration_format_minutes">m \'λεπτά,\' s \'δευτερόλεπτα\'</string>
+	<string name="duration_format_seconds">s \'δευτερόλεπτα\'</string>
+	<string name="short_time_format">h:mm a</string>
+	<string name="date_format_month_day">d MMM</string>
+	<string name="date_format_month_day_year">d/M/yy</string>
+	<string name="date_time_format_short_24">k:mm d/M/yy</string>
+	<string name="date_time_format_short">h:mm a d/M/yy</string>
+	<string name="date_time_format_long_24">E, d MMM, yyyy \'στις\' k:mm</string>
+	<string name="date_time_format_long">E, d MMM, yyyy \'στις\' h:mm a</string>
+	<string name="year_1">%1$dΕΤΟΣ</string>
+	<string name="year_n">%1$dΕΤΗ</string>
+	<string name="month_1">%1$dΜΗΝΑΣ</string>
+	<string name="month_n">%1$dΜΗΝΕΣ</string>
+	<string name="day_1">%1$dΗΜΕΡΑ</string>
+	<string name="day_n">%1$dΗΜΕΡΕΣ</string>
+	<string name="hr_1">%1$dΩΡΑ</string>
+	<string name="hr_n">%1$dΩΡΕΣ</string>
+	<string name="min_1">%1$dΛΕΠΤΑ</string>
+	<string name="min_n">%1$dΛΕΠΤΑ</string>
+	<string name="sec_1">%1$dΔΕΥΤ</string>
+	<string name="sec_n">%1$dΔΕΥΤ</string>
+	<string name="copy_message_success_toast">Το κείμενο του μηνύματος αντιγράφηκε στο πρόχειρο.</string>
+	<string name="copy_message_error_toast">Υπήρχε ένα σφάλμα στην αντιγραφή του κειμένου στο πρόχειρο.</string>
+	<string name="no_google_play_dialog_title">Το Google Play δεν είναι εγκατεστημένο</string>
+	<string name="no_google_play_dialog_message">To Google Play δεν είναι εγκατεστημένο στη συσκευή σας. Εγκαταστήστε το πριν συνεχίσετε.</string>
+	<string name="no_handling_application_toast">Δεν βρέθηκε εφαρμογή για τη διαχείριση της ενέργειας</string>
+</resources>

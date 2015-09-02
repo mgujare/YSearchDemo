@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Search.Suggest.List" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/search_text_color_gray</item>
+    </style>
+
+    <style name="Search.TitleText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/search_text_color_gray</item>
+    </style>
+
+    <style name="DialogAnimationFade">
+        <item name="android:windowEnterAnimation">@anim/yssdk_fade_in_dialog</item>
+        <item name="android:windowExitAnimation">@anim/yssdk_fade_out_dialog</item>
+    </style>
+
+    <style name="SearchTabs">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/search_tab_standard</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Search.Suggest.Container" parent="android:Theme.Holo.Light.NoActionBar">
+
+    </style>
+
+    <style name="Search.Suggest.Container.Card">
+        <item name="android:background">#ffffff</item>
+    </style>
+
+    <style name="Search.Suggest.Container.Icon">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="Search.Suggest.Container.Icon.Contact">
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <style name="SearchToLink.Preview" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/PreviewActionBar</item>
+        <item name="android:actionOverflowButtonStyle">@style/PreviewActionBarOverflow</item>
+        <item name="android:actionBarSize">50dp</item>
+    </style>
+
+    <style name="PreviewActionBar" parent="android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/yssdk_gradient_top</item>
+    </style>
+
+    <style name="PreviewActionBarOverflow" parent="android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/yssdk_overflow_menu_icon</item>
+    </style>
+
+    <style name="SearchToLink.Preview.Overlay">
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@null" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white" />
+            <corners
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp"
+                android:radius="2dp"
+                android:topLeftRadius="3dp"
+                android:topRightRadius="3dp" />
+        </shape>
+    </item>
+</layer-list><!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/drawable/yssdk_local_list_item_row_one_round_bg.xml -->

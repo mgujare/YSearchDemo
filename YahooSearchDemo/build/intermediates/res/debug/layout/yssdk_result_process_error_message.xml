@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/results_process_error_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/yssdk_error_page_margin"
+    android:visibility="gone"
+    android:background="@drawable/yssdk_background_round_bottom_corners_with_shadow_error_card"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_view_results_error_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/yssdk_error_process_page_text_margin_top"
+        android:layout_marginLeft="@dimen/yssdk_error_process_page_margin"
+        android:layout_marginRight="@dimen/yssdk_error_process_page_margin"
+        android:text="@string/yssdk_request_error"
+        android:fontFamily="Roboto-Regular"
+        android:gravity="left"
+        android:textColor="@color/black"
+        android:textSize="@dimen/yssdk_error_page_query_text_size" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_view_results_error_retry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/yssdk_error_process_page_retry_margin_top"
+        android:layout_marginRight="@dimen/yssdk_error_process_page_margin"
+        android:layout_marginBottom="@dimen/yssdk_error_process_page_margin"
+        android:text="@string/yssdk_retry_button_text"
+        android:fontFamily="Roboto-Regular"
+        android:layout_gravity="right"
+        android:textColor="@color/share_blue"
+        android:textSize="@dimen/yssdk_error_page_query_text_size"
+        android:clickable="true" >
+    </TextView>
+
+</LinearLayout>
+<!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/layout/yssdk_result_process_error_message.xml -->

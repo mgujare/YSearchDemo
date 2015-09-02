@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/yssdk_bing_attribution_height"
+    android:background="@null"
+    android:orientation="horizontal" 
+    android:paddingTop="20dp">
+
+    <ImageView
+        android:id="@+id/yahoo_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="2dp"
+        android:background="@color/yssdk_translucent_background"
+        android:src="@drawable/yssdk_yahoo_attribution_logo"
+        android:layout_marginLeft="20dp"/>
+    
+    <TextView 
+	     android:id="@+id/copy_right_message"
+	     android:layout_width="wrap_content"
+	     android:layout_height="match_parent"
+	     android:background="@color/yssdk_translucent_background"
+	     android:textColor="@android:color/white"
+	     android:layout_marginLeft="20dp"
+	     android:text="@string/common.powered_by_bing"
+	     android:gravity="center_vertical"
+	     android:textSize="11sp">
+    </TextView>
+</LinearLayout>

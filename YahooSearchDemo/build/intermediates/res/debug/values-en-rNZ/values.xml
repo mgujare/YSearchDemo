@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values-en-rNZ/locale_res_yssdk_locale_values.xml -->
+    <eat-comment/>
+    <bool name="yssdk_locale_areTrendingSuggestionsEnabled">false</bool>
+    <bool name="yssdk_locale_isImageGalleryEnabled">true</bool>
+    <bool name="yssdk_locale_isImageSearchEnabled">true</bool>
+    <bool name="yssdk_locale_isImageSearchPoweredByFlickr">true</bool>
+    <bool name="yssdk_locale_isLocalSearchEnabled">false</bool>
+    <bool name="yssdk_locale_isPoweredByYahoo7">true</bool>
+    <bool name="yssdk_locale_isSafeSearchConfigurable">true</bool>
+    <bool name="yssdk_locale_isSafeSearchModerateOptionAvailable">false</bool>
+    <bool name="yssdk_locale_isSafeSearchOffOptionAvailable">true</bool>
+    <bool name="yssdk_locale_isSearchSuggestionEnabled">true</bool>
+    <bool name="yssdk_locale_isVideoSearchEnabled">false</bool>
+    <bool name="yssdk_locale_isVoiceSearchEnabled">true</bool>
+    <bool name="yssdk_locale_isWebSearchPoweredByGoogle">true</bool>
+    <string name="yssdk_locale_defaultSafeSearchSetting">p</string>
+    <string name="yssdk_locale_searchHostURL">en-NZ</string>
+    <string name="yssdk_locale_searchIntlString">nz</string>
+    <string name="yssdk_locale_voiceSearchLocale">en_US</string>
+</resources>

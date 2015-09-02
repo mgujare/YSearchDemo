@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yahoo.mobile.client.share.search.ui.view.EnhancementTitleView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/enhancement_title_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/yssdk_enhancement_icon_height"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:id="@+id/is_powered_by_google"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/is_powered_by_google_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#ff888888"
+            android:text="@string/yssdk_search_enhancement_no_trans"
+            android:paddingBottom="4dp"
+            android:paddingRight="4dp"
+            android:textSize="@dimen/yssdk_enhancement_text_size"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="7dp"
+            android:paddingBottom="3dp"
+            android:src="@drawable/yssdk_google_icon"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/is_powered_by_flickr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/is_powered_by_flickr_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#ff888888"
+            android:text="@string/yssdk_search_enhancement_no_trans"
+            android:paddingBottom="4dp"
+            android:paddingRight="4dp"
+            android:textSize="@dimen/yssdk_enhancement_text_size"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="7dp"
+            android:paddingBottom="4dp"
+            android:src="@drawable/yssdk_flickr_icon"/>
+
+    </LinearLayout>
+
+</com.yahoo.mobile.client.share.search.ui.view.EnhancementTitleView>

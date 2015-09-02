@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Bottom 2dp Shadow -->
+    <item
+        android:left="0dp"
+        android:right="0dp"
+        android:top="53dp">
+        <shape  android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:centerY="0.4"
+                android:endColor="@color/yssdk_card_drop_shadow"
+                android:startColor="@color/full_transparent"
+                android:type="linear" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+    <!-- White Top color -->
+    <item android:bottom="3dp">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" >
+            <solid android:color="@color/white" />
+            <corners
+                android:bottomLeftRadius="2dp"
+                android:bottomRightRadius="2dp"
+                android:topLeftRadius="0dp"
+                android:topRightRadius="0dp" />
+        </shape>
+    </item>
+</layer-list>
+<!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/drawable/yssdk_background_round_bottom_corners_with_shadow.xml -->

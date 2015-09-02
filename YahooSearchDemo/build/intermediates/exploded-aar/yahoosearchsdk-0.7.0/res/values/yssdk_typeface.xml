@@ -1,0 +1,18 @@
+<resources>
+   <string name="yssdk_clear_indicator">&#xe002;</string>
+   <string name="yssdk_mic_icon">&#xe001;</string>
+   <string name="yssdk_close_icon">&#xe003;</string>
+   <string name="yssdk_back_icon">&#xe008;</string>
+   <string name="yssdk_share_icon">&#xe007;</string>
+   <string name="yssdk_checkmark_icon">&#xe601;</string>
+   <string name="yssdk_trending_icon">&#xe600;</string>
+   <string name="yssdk_querybuilder_icon">&#xe604;</string>
+   <string name="yssdk_share_send_icon">&#xe608;</string>
+   <string name="yssdk_downarrow_icon">&#xe60a;</string>
+   <string name="yssdk_uparrow_icon">&#xe60b;</string>
+   <string name="yssdk_share_message_icon">&#xe611;</string>
+   <string name="yssdk_history_icon">&#xe605;</string>
+   <string name="yssdk_videoicon">&#xe613;</string>
+   <string name="yssdk_back_icon_2">&#xe606;</string>
+   <string name="yssdk_bullet_point">•</string>
+</resources>

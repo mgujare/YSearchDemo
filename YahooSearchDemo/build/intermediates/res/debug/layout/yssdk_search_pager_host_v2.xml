@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    android:background="@color/yssdk_web_gelato_background_color">
+</android.support.v4.view.ViewPager><!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/layout/yssdk_search_pager_host_v2.xml -->

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Search bar colors -->
+    <color name="search_background_gray">#ff494949</color>
+    <color name="search_headinglabel_blue">#ff16387c</color>
+    <color name="search_headinglabel_purple">#FF44296A</color>
+    <color name="search_headingshadow_purple">#FFB795BF</color>
+    <color name="search_text_color_black">#000000</color>
+    <color name="search_text_color_offwhite">#ddffffff</color>
+    <color name="search_text_color_white">#ffffffff</color>
+    <color name="search_text_color_gray">#FF454953</color>
+    <color name="search_text_shadow_gray">#2b2b2b</color>
+    <color name="search_dark_gray">#FFCDCECD</color>
+    <color name="search_box_hint_text">#A6FFFFFF</color>
+    <color name="search_box_text">#FF3F3F3F</color>
+    <color name="clearable_button_color">#FFA2A2A2</color>
+    <color name="poi_yellow">#FFEEB822</color>
+    <color name="search_highlight_blue">#FF608AA7</color>
+    <color name="search_info_gray">#FF898C95</color>
+    <color name="search_background_dark_gray">#FF232323</color>
+    <color name="cancel_button_background">#FFFAFAFC</color>
+    <color name="cancel_button_text_color">#FF680194</color>
+    <color name="trending_yellow">#FFEDC147</color>
+    <color name="white">#ffffffff</color>
+    <color name="voice_purple">#cc9400d3</color>
+    <color name="search_bar_divider">#FFABABAB</color>
+    <color name="trending_text_color">#FF1D1D1D</color>
+	<color name="base_purple">#FF400090</color>
+	<color name="yssdk_blue">#770000FF</color>
+	<color name="yssdk_gray">#FF96989C</color>
+	<color name="yssdk_translucent_background">#90000000</color>
+    
+    <color name="translucent_black">#3F000000</color>
+    <color name="translucent_white">#80FFFFFF</color>
+    <color name="transparent_white">#E6FFFFFF</color>
+    <color name="page_indicator_color_active">#FFFFFF</color>
+    <color name="page_indicator_color_inactive">#666666</color>
+
+    <color name="full_transparent">#00FFFFFF</color>
+    <color name="list_item_pressed">#26FFFFFF</color>
+    <color name="searchbar_item_pressed">#26888888</color>
+    <color name="transparent">#17170445</color>
+    <color name="searchassist_back_color">#00F5F5F9</color>
+    <color name="searchassist_container_back_color">#FFF5F5F9</color>
+    <color name="searchassist_divider">#FFEDEDF3</color>
+    <color name="searchassist_selected">#FF5771FF</color>
+    <color name="trending_back_color">#EEFFFFFF</color>
+    <color name="trending_selected">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="dark_gray_background">#FF272727</color>
+    <color name="grid_border">#FF989898</color>
+    <color name="spinner_bg_black">#CC000000</color>
+    <!-- Widget background -->
+    <color name="light_blue_background">#ffe6ecf1</color>
+    <color name="white_background">#ffffffff</color>
+    <color name="listitem_selected">#e6ecf1</color>
+    <color name="default_video_background">#ff232425</color>
+
+    <!-- tabs -->
+    <color name="tab_bg">#FF3F1B59</color>
+    <color name="tab_bg_selected">#FF44296A</color>
+    <color name="tab_text_selected">#FFFEFEFE</color>
+    <color name="tab_text_unselected">#FF7D5FA9</color>
+
+    <color name="yssdk_tab_color">#F5F4F6</color>
+
+    <!-- image grid -->
+    <color name="grid_bg_unselected">#FFE0E0E4</color>
+    <color name="grid_bg_selected">#FF44296A</color>
+
+    <!-- text color -->
+    <color name="text_color">#ffffffff</color>
+    <color name="text_color_red">#ffff0000</color>
+    <color name="text_color_black">#ff000000</color>
+    <color name="text_color_offwhite">#55ffffff</color>
+
+    <!-- Chat "sent time" text background -->
+    <color name="timestamp_color">#bf000000</color>
+
+    <!-- the background color used for unread conversation -->
+    <!--
+    color name="unread_bgcolor">#ff404040</color>
+    <color name="read_bgcolor">#ff000000</color
+    -->
+
+    <color name="transparent_purple_color">#76400090</color>
+    <color name="search_tab_selected">#400090</color>
+    <color name="search_tab_standard">#AAAAAA</color>
+    
+    
+    <color name="video_glass">#7F000000</color>
+    
+    <!-- the color used for top purple line -->
+    <color name="ypurple">#FF400090</color>
+    <color name="ypurple_progress_bar">#FF8700D2</color>
+    
+    <!-- the color used for top purple line -->
+    <color name="yssdk_web_gelato_background_color">#FFEEEEEE</color>
+
+    <!-- voice dialog circles-->
+    <color name="voice_dialog_inner_circle_color">#A6FFFFFF</color>
+    <color name="voice_dialog_outer_circle_color">#A6000000</color>
+
+    <!-- Selectable Container Views-->
+    <color name="selectable_container_view_overlay">#66000000</color>
+
+    <!-- Share Bar -->
+    <color name="share_bar_vertical_separator">#ffe0e0e0</color>
+
+    <!--Greys-->
+    <color name="yssdk_grey_50">#fffafafa</color>
+    <color name="yssdk_grey_100">#fff5f5f5</color>
+    <color name="yssdk_grey_200">#ffeeeeee</color>
+    <color name="yssdk_grey_300">#ffe0e0e0</color>
+    <color name="yssdk_grey_400">#ffbdbdbd</color>
+    <color name="yssdk_grey_500">#ff9e9e9e</color>
+    <color name="yssdk_grey_600">#ff757575</color>
+    <color name="yssdk_grey_700">#ff616161</color>
+    <color name="yssdk_grey_800">#ff424242</color>
+    <color name="yssdk_grey_900">#ff212121</color>
+    <color name="yssdk_grey_1000">#ff000000</color>
+    <color name="yssdk_grey_card_subtitle">#AAAAAA</color>
+    <color name="yssdk_card_drop_shadow">#60000000</color>
+
+    <!--Transparent Blacks-->
+    <color name="yssdk_black_transparency_100">#00000000</color>
+    <color name="yssdk_black_transparency_75">#44000000</color>
+    <color name="yssdk_black_transparency_65">#41000000</color>
+    <color name="yssdk_black_transparency_50">#88000000</color>
+    <color name="yssdk_black_transparency_25">#CC000000</color>
+    <color name="yssdk_black_transparency_10">#1A000000</color>
+    <color name="yssdk_black_transparency_20">#33000000</color>
+
+    <!-- Browser activity -->
+    <color name="share_blue">#0078FF</color>
+    <color name="share_browser_progress_bar">#009688</color>
+
+
+    <!-- Local search colors -->
+    <color name="yssdk_local_red">#DC142D</color>
+    <color name="yssdk_local_green">#00AD68</color>
+    <color name="yssdk_local_list_border">#E5E5E5</color>
+    <color name="yssdk_local_default_thumb_bg">#F1F1f2</color>
+
+    <!--Share Cards colors -->
+    <color name="yssdk_webcard_border_background">#f1f1f2</color>
+    <color name="yssdk_sharecard_link_background">#979797</color>
+
+</resources>

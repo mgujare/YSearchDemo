@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:animateLayoutChanges="true"
+    android:clipChildren="true"
+    android:orientation="vertical"
+    android:background="@null">
+
+    <FrameLayout
+        android:id="@+id/image_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/yssdk_video_list_item_image_background_height"
+        android:background="@null">
+
+        <ImageView
+            android:id="@+id/image_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="@drawable/yssdk_list_items_stateful"
+            android:duplicateParentState="true"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/image_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="@drawable/yssdk_video_list_items_stateful"
+            android:duplicateParentState="true"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/yssdk_play_btn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/yssdk_video_list_item_play_btn_margin_top"/>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/yssdk_video_list_item_details_height"
+        android:background="@drawable/yssdk_background_round_bottom_corners_with_shadow"
+        android:layout_marginTop="-4dp"
+        android:paddingTop="@dimen/yssdk_video_list_item_top_padding"
+        android:paddingBottom="@dimen/yssdk_video_list_item_bottom_padding">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginBottom="1dip"
+            android:layout_above="@+id/info"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Title of the listing"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_alignParentBottom="true"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Info of the listing"
+            android:textColor="@color/yssdk_grey_card_subtitle"
+            android:textSize="13sp" />
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="12:00"
+            android:textColor="@color/yssdk_grey_card_subtitle"
+            android:textSize="13sp"
+            android:layout_toRightOf="@+id/info"
+            android:layout_alignBottom="@+id/info"
+            android:layout_alignRight="@+id/title"
+            android:gravity="right"/>
+    </RelativeLayout>
+
+</LinearLayout>

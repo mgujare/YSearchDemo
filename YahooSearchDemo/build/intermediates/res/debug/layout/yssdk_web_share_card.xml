@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width= "@dimen/yssdk_webcard_width"
+              android:layout_height="@dimen/yssdk_webcard_height"
+              android:id="@+id/webcard"
+              android:orientation="horizontal" >
+
+
+
+    <ImageView
+        android:layout_width="@dimen/yssdk_webcard_videocard_imageview_width"
+        android:layout_height="@dimen/yssdk_webcard_imageview_height"
+        android:src="@drawable/yssdk_web_card_default"
+        android:scaleType="centerCrop"
+        android:gravity="center"
+        android:id="@+id/imageView"/>
+    <View
+        android:layout_width="@dimen/yssdk_webcard_border_width"
+        android:layout_height="match_parent"
+        android:background="@color/yssdk_webcard_border_background" />
+
+
+    <RelativeLayout
+        android:layout_width="@dimen/yssdk_webcard_relativelayout_width"
+        android:background="@color/page_indicator_color_active"
+        android:layout_height="@dimen/yssdk_webcard_height"
+        android:layout_gravity="right">
+
+        <TextView
+            android:layout_width="@dimen/yssdk_webcard_web_title_web_link_width"
+            android:layout_height="wrap_content"
+            android:textColor="@color/search_text_color_black"
+            android:maxLines="5"
+            android:textSize="@dimen/yssdk_webcard_videocard_title_text_size"
+            android:fontFamily="Roboto-Regular"
+            android:text=""
+            android:ellipsize="end"
+            android:id="@+id/web_title"
+            android:layout_marginLeft="@dimen/yssdk_webcard_videocard_title_link_margin_left_right"
+            android:layout_marginRight="@dimen/yssdk_webcard_videocard_title_link_margin_left_right"
+            android:layout_marginStart="@dimen/yssdk_webcard_videocard_title_margin_start"
+            android:layout_marginTop="@dimen/yssdk_webcard_videocard_title_margin_top"/>
+
+        <TextView
+            android:layout_width="@dimen/yssdk_webcard_web_title_web_link_width"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yssdk_sharecard_link_background"
+            android:lines="1"
+            android:textSize="@dimen/yssdk_webcard_videocard_link_text_size"
+            android:text=""
+            android:ellipsize="end"
+            android:fontFamily="Roboto-Regular"
+            android:id="@+id/web_link"
+            android:layout_marginLeft="@dimen/yssdk_webcard_weblink_margin_left_right"
+            android:layout_marginRight="@dimen/yssdk_webcard_weblink_margin_left_right"
+            android:layout_below= "@id/web_title"
+            android:layout_centerHorizontal="true"/>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout><!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/layout/yssdk_web_share_card.xml -->

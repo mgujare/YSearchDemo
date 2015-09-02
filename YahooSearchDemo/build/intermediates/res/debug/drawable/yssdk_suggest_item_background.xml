@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"
+        android:color="#FF329DF4">
+        <shape>
+            <solid android:color="#FF329DF4"/>
+        </shape>
+    </item>
+
+    <item android:color="@android:color/white">
+        <shape>
+            <solid android:color="@android:color/white"/>
+        </shape>
+    </item>
+
+</selector>
+<!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/drawable/yssdk_suggest_item_background.xml -->

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file has been created by Yahoo! Android build system. DO NOT EDIT MANUALLY -->
+<!-- Synopsis:                                                                       -->
+<!-- Strings starting with !: -> This string is in the template file but not in the  -->
+<!--                             matching translation nor in the default translation.-->
+<!-- Strings starting with *: -> No matching translation (with matching locale )file -->
+<!--                             for the template file containing this string found. -->
+<!-- Strings starting with $: -> The string value is different in override. e.g. if  -->
+<!--                             it is defined in share and project but has different-->
+<!--                             value in share. If this on purpose ust @Override    -->
+<!--                             keyword inside the template comment to mark it it as-->
+<!--                             overriding the shave value on purpose.              -->
+<resources>
+	<string name="yssdk_app_title">Yahoo Søg</string>
+	<string name="yssdk_processing">Behandler...</string>
+	<string name="yssdk_initializing">Initialiserer...</string>
+	<string name="yssdk_share">Del</string>
+	<string name="yssdk_search">Søg</string>
+	<string name="yssdk_search_or_speak">Søg eller tal</string>
+	<string name="yssdk_search_for">Søg efter \"%1$s\"</string>
+	<string name="yssdk_kb">kB</string>
+	<string name="yssdk_mb">MB</string>
+	<string name="yssdk_voice_processing">Arbejder på det...</string>
+	<string name="yssdk_voice_listening">Vi lytter...</string>
+	<string name="yssdk_voice_error">Vi fik ikke helt fat i det. Prøv igen.</string>
+	<string name="yssdk_cancel">Annuller</string>
+	<string name="yssdk_close">Luk</string>
+	<string name="yssdk_safe_search">Sikker søgning</string>
+	<string name="yssdk_setting_search_title">Søgeindstillinger</string>
+	<string name="yssdk_search_preferences_title">Søgepræferencer</string>
+	<string name="yssdk_clear_history_title">Ryd historik</string>
+	<string name="yssdk_clear_history_summary">Ryd historik</string>
+	<string name="yssdk_show_all_history">Show All History</string>
+	<string name="yssdk_history_cleared">Historik ryddet</string>
+	<string name="yssdk_network_error">Ingen internetforbindelse fundet.</string>
+	<string name="yssdk_request_error">Vi kan ikke behandle din forespørgsel på nuværende tidspunkt.</string>
+	<string name="yssdk_search_status_error">Søgegrænsefladen er deaktiveret</string>
+	<string name="yssdk_retry_button">Prøv igen</string>
+	<string name="yssdk_dismiss_button">Afvis</string>
+	<string name="yssdk_clear_history_warning_title">Ryd historik</string>
+	<string name="yssdk_clear_history_warning_text">Er du sikker?</string>
+	<string name="yssdk_yes">Ja</string>
+	<string name="yssdk_no">Nej</string>
+	<string name="yssdk_no_internet">Du har ikke forbindelse til internettet. Kontrollér forbindelsen, og prøv igen.</string>
+	<string name="yssdk_settings_about">Om</string>
+	<string name="yssdk_open">Åbn</string>
+	<string name="yssdk_copy">Kopiér</string>
+	<string name="yssdk_open_in_browser">Åbn i browser</string>
+	<string name="yssdk_search_copyright">Kan være underlagt copyright</string>
+	<string name="yssdk_no_web_results_found">Der blev ikke fundet webresultater for:</string>
+	<string name="yssdk_no_image_results_found">Der blev ikke fundet billederesultater for:</string>
+	<string name="yssdk_no_video_results_found">Der blev ikke fundet videoresultater for:</string>
+	<string name="yssdk_no_local_results_found">Der blev ikke fundet lokale resultater for:</string>
+	<string name="yssdk_suggestions">Forslag:\n Sørg for, at ordene er stavet korrekt.\nPrøv mere generelle ord.\nPrøv forskellige ord med samme betydning.</string>
+	<string name="yssdk_search_enhancement_no_trans">Enhanced by</string>
+	<string name="common.powered_by_bing">Leveret af Bing&amp;trade;</string>
+	<string name="yssdk_retry_button_text">Prøv igen</string>
+	<string name="yssdk_result_error_suggestion_word">Forslag:</string>
+	<string name="yssdk_result_error_suggestion_check_spelling">Kontroller stavning</string>
+	<string name="yssdk_result_error_suggestion_try_more_words">Forsøg med mere generelle ord</string>
+	<string name="yssdk_result_error_try_word">Forsøg</string>
+	<string name="yssdk_result_error_web_search_button_text">Websøgning</string>
+	<string name="yssdk_web_search">Web</string>
+	<string name="yssdk_image_search">Billeder</string>
+	<string name="yssdk_video_search">Videoer</string>
+	<string name="yssdk_local_search">I nærheden</string>
+	<string name="yssdk_share_via">Del via</string>
+	<string name="yssdk_invalid_yhs_key">Ugyldigt applikations-ID</string>
+	<string name="yssdk_development_mode">Udviklingstilstand er TIL</string>
+	<string name="yssdk_safesearch_moderate">Moderat</string>
+	<string name="yssdk_safesearch_strict">Streng</string>
+	<string name="yssdk_safesearch_off">Deaktiveret</string>
+	<string name="yssdk_search_history">Søgehistorie</string>
+	<string name="yssdk_search_history_enabled">Aktiveret</string>
+	<string name="yssdk_search_history_disabled">Deaktiveret</string>
+	<string name="yssdk_safe_search_off_title">Du er kommet til at aldersbegrænset område i Yahoo Søg</string>
+	<string name="yssdk_safe_search_off_terms">Dette område har voksenindhold, der muligvis ikke er egnet for yngre brugere. Du skal være over 18 år for at se voksenindhold.\n\nNår filtret mod voksenindhold slås fra, kan der vises materiale, der er af eksplicit karakter. Hvis du er under 18 år eller ikke ønsker at fortsætte, skal du klikke herunder for at vende tilbage til den forrige side. Ved at klikke på knappen \"Jeg accepterer\" herunder bekræfter du, at du er mindst 18 år gammel og har forstået vilkårene for anvendelse.</string>
+	<string name="yssdk_safe_search_off_accept">Jeg accepterer</string>
+	<string name="yssdk_safe_search_off_deny">Jeg accepterer ikke</string>
+	<string name="yssdk_images_copyright_message">Billeder kan være underlagt copyright</string>
+	<string name="yssdk_image_copyright_message">Billedet kan være omfattet af copyright</string>
+	<string name="yssdk_menu_send">Del</string>
+	<string name="yssdk_menu_copy">Kopiér link</string>
+	<string name="yssdk_menu_open">Åbn i browser</string>
+	<string name="yssdk_webview_loading">Indlæser...</string>
+	<string name="yssdk_link_not_supported">Link not supported</string>
+	<string name="yssdk_menu_send_image">Del</string>
+	<string name="yssdk_local_share">Del</string>
+	<string name="yssdk_local_call">Ring til</string>
+	<string name="yssdk_local_directions">Rutevejledning</string>
+	<string name="yssdk_local_menu">Menu</string>
+	<string name="yssdk_local_opening_hours">Åbningstider</string>
+	<string name="yssdk_local_website">Website</string>
+	<string name="yssdk_local_today">I dag</string>
+	<string name="yssdk_local_monday">mandag</string>
+	<string name="yssdk_local_tuesday">tirsdag</string>
+	<string name="yssdk_local_wednesday">onsdag</string>
+	<string name="yssdk_local_thursday">torsdag</string>
+	<string name="yssdk_local_friday">fredag</string>
+	<string name="yssdk_local_saturday">lørdag</string>
+	<string name="yssdk_local_sunday">søndag</string>
+	<string name="yssdk_local_view_more_yelp">Se mere på Yelp</string>
+	<string name="yssdk_local_address">Adresse</string>
+	<string name="yssdk_local_hours">Åbningstider</string>
+	<string name="yssdk_local_category">Kategori</string>
+	<string name="yssdk_local_images">Billeder</string>
+	<string name="yssdk_local_reviews">anmeldelser</string>
+	<string name="yssdk_local_review">anmeldelse</string>
+	<string name="yssdk_local_closed">Lukket</string>
+	<string name="yssdk_local_mi">mi</string>
+	<string name="yssdk_local_on">på</string>
+	<string name="yssdk_local_no_location">Aktivér lokalitetstjenester.</string>
+	<string name="yssdk_video_word">Video</string>
+	<string name="cancel">Annuller</string>
+	<string name="app_name">Mail</string>
+	<string name="loading">Indlæser\u2026</string>
+	<string name="edit">Rediger</string>
+	<string name="download_app">%1$s er ikke installeret på din enhed i øjeblikket. Vil du installere %2$s?</string>
+	<string name="download_app_generic_partner">%1$s er ikke installeret på din enhed i øjeblikket. Besøg din foretrukne markedsplads for at installere den.</string>
+	<string name="ok">OK</string>
+	<string name="yes">Ja</string>
+	<string name="no">Nej</string>
+	<string name="app_not_available">Beklager, men %1$s er ikke tilgængelig i øjeblikket.</string>
+	<string name="duration_format_hours">h \'timer\', m \'min.\', s \'sec.\'</string>
+	<string name="duration_format_minutes">m \'min.\', s \'sek.\'</string>
+	<string name="duration_format_seconds">s \'sek.\'</string>
+	<string name="short_time_format">k:mm</string>
+	<string name="date_format_month_day">d MMM</string>
+	<string name="date_format_month_day_year">d/M/yy</string>
+	<string name="date_time_format_short_24">M/d/yy k:mm</string>
+	<string name="date_time_format_short">k:mm d/M/yy</string>
+	<string name="date_time_format_long_24">E, MMM d, yyyy \'kl.\' k:mm</string>
+	<string name="date_time_format_long">E, MMM d, yyyy \'kl.\' h:mm a</string>
+	<string name="year_1">%1$dÅR</string>
+	<string name="year_n">%1$dÅR</string>
+	<string name="month_1">%1$dMD</string>
+	<string name="month_n">%1$dMDR</string>
+	<string name="day_1">%1$dDAG</string>
+	<string name="day_n">%1$dDAGE</string>
+	<string name="hr_1">%1$dTIME</string>
+	<string name="hr_n">%1$dTIMER</string>
+	<string name="min_1">%1$d MIN.</string>
+	<string name="min_n">%1$d MIN.</string>
+	<string name="sec_1">%1$dSEK</string>
+	<string name="sec_n">%1$dSEK</string>
+	<string name="copy_message_success_toast">Meddelelsestekst kopieret til udklipsholderen.</string>
+	<string name="copy_message_error_toast">Der opstod en fejl med kopiering af teksten til udklipsholderen.</string>
+	<string name="no_google_play_dialog_title">Google Play er ikke installeret</string>
+	<string name="no_google_play_dialog_message">Google Play er ikke installeret på din enhed. Installér programmet før du fortsætter.</string>
+	<string name="no_handling_application_toast">Kan ikke finde applikation(er) til at udføre handlingen</string>
+</resources>

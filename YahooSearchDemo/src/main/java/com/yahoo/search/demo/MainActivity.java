@@ -30,7 +30,7 @@ import java.io.InputStream;
 public class MainActivity extends Activity implements IActionMenuListener {
     private ImageView imageViewSearchShare;
     private CheckBox launchToSuggest;
-    private String text = "Select any word frm this text and press the search button";
+    private String text = "This is an activity from App";
     private static int REQUEST_CODE_SEARCH_TO_SHARE = 100;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

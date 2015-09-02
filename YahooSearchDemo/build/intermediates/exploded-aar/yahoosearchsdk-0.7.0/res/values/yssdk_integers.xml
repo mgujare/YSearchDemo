@@ -1,0 +1,7 @@
+<resources>
+    <integer name="yssdk_page_margin">3</integer>
+    <integer name="yssdk_video_background_scale_factor">250</integer>
+    <integer name="yssdk_max_image_size">2000</integer>
+    <integer name="yssdk_error_line_textview_seperator">1</integer>
+</resources>
+

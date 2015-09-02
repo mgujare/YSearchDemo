@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:id="@+id/contact_icon"
+        android:scaleType="centerCrop" 
+        android:layout_width="@dimen/yssdk_contact_container_width"
+        android:layout_height="@dimen/yssdk_contact_icon_height"
+        android:background="@drawable/yssdk_container_item_stateful"/>
+    
+    <TextView
+        android:id="@+id/contact_name"
+        android:gravity="center"
+        android:maxLength="8"
+        android:layout_width="@dimen/yssdk_contact_container_width"
+        android:layout_height="@dimen/yssdk_contact_name_height"
+        android:textColor="@color/yssdk_grey_1000" />
+
+</LinearLayout>

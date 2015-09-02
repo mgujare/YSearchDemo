@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yssdk_arrays.xml -->
+    <eat-comment/>
+    <string-array name="longPressListOptionsWithMinibrowserDisabled">
+        <item>@string/yssdk_copy</item>
+        <item>@string/yssdk_open_in_browser</item>
+    </string-array>
+    <string-array name="longPressListOptionsWithMinibrowserEnabled">
+		<item>@string/yssdk_open</item>
+        <item>@string/yssdk_copy</item>
+    </string-array>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="safe_search_options">
+        <item>@string/yssdk_safesearch_strict</item>
+        <item>@string/yssdk_safesearch_moderate</item>
+        <item>@string/yssdk_safesearch_off</item>
+    </string-array>
+    <string-array name="safe_search_values">
+        <item>r</item>
+        <item>i</item>
+        <item>p</item>
+    </string-array>
+    <string-array name="search_history_options">
+        <item>@string/yssdk_search_history_enabled</item>
+        <item>@string/yssdk_search_history_disabled</item>
+    </string-array>
+    <string-array name="search_history_values">
+        <item>on</item>
+        <item>off</item>
+    </string-array>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/locale_res_yssdk_locale_values.xml -->
+    <eat-comment/>
+    <bool name="yssdk_locale_areTrendingSuggestionsEnabled">true</bool>
+    <bool name="yssdk_locale_isImageGalleryEnabled">true</bool>
+    <bool name="yssdk_locale_isImageSearchEnabled">true</bool>
+    <bool name="yssdk_locale_isImageSearchPoweredByFlickr">false</bool>
+    <bool name="yssdk_locale_isLocalSearchEnabled">true</bool>
+    <bool name="yssdk_locale_isPoweredByYahoo7">false</bool>
+    <bool name="yssdk_locale_isSafeSearchConfigurable">true</bool>
+    <bool name="yssdk_locale_isSafeSearchModerateOptionAvailable">true</bool>
+    <bool name="yssdk_locale_isSafeSearchOffOptionAvailable">true</bool>
+    <bool name="yssdk_locale_isSearchSuggestionEnabled">true</bool>
+    <bool name="yssdk_locale_isVideoSearchEnabled">true</bool>
+    <bool name="yssdk_locale_isVoiceSearchEnabled">true</bool>
+    <bool name="yssdk_locale_isWebSearchPoweredByGoogle">false</bool>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yssdk_colors.xml -->
+    <eat-comment/>
+    <color name="base_purple">#FF400090</color>
+    <color name="black">#FF000000</color>
+    <color name="cancel_button_background">#FFFAFAFC</color>
+    <color name="cancel_button_text_color">#FF680194</color>
+    <color name="clearable_button_color">#FFA2A2A2</color>
+    <color name="dark_gray_background">#FF272727</color>
+    <color name="default_video_background">#ff232425</color>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="demo_search_tab_selected">#400090</color>
+    <color name="demo_search_tab_selected_bg">#ffe0e0e0</color>
+    <color name="demo_search_tab_standard">#AAAAAA</color>
+    <color name="demo_search_tab_unselected_bg">#ffffffff</color>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yssdk_colors.xml -->
+    <eat-comment/>
+    <color name="full_transparent">#00FFFFFF</color>
+    <color name="grid_bg_selected">#FF44296A</color>
+    <color name="grid_bg_unselected">#FFE0E0E4</color>
+    <color name="grid_border">#FF989898</color>
+    <color name="light_blue_background">#ffe6ecf1</color>
+    <color name="list_item_pressed">#26FFFFFF</color>
+    <color name="listitem_selected">#e6ecf1</color>
+    <color name="page_indicator_color_active">#FFFFFF</color>
+    <color name="page_indicator_color_inactive">#666666</color>
+    <color name="poi_yellow">#FFEEB822</color>
+    <color name="search_background_dark_gray">#FF232323</color>
+    <color name="search_background_gray">#ff494949</color>
+    <color name="search_bar_divider">#FFABABAB</color>
+    <color name="search_box_hint_text">#A6FFFFFF</color>
+    <color name="search_box_text">#FF3F3F3F</color>
+    <color name="search_dark_gray">#FFCDCECD</color>
+    <color name="search_headinglabel_blue">#ff16387c</color>
+    <color name="search_headinglabel_purple">#FF44296A</color>
+    <color name="search_headingshadow_purple">#FFB795BF</color>
+    <color name="search_highlight_blue">#FF608AA7</color>
+    <color name="search_info_gray">#FF898C95</color>
+    <color name="search_tab_selected">#400090</color>
+    <color name="search_tab_standard">#AAAAAA</color>
+    <color name="search_text_color_black">#000000</color>
+    <color name="search_text_color_gray">#FF454953</color>
+    <color name="search_text_color_offwhite">#ddffffff</color>
+    <color name="search_text_color_white">#ffffffff</color>
+    <color name="search_text_shadow_gray">#2b2b2b</color>
+    <color name="searchassist_back_color">#00F5F5F9</color>
+    <color name="searchassist_container_back_color">#FFF5F5F9</color>
+    <color name="searchassist_divider">#FFEDEDF3</color>
+    <color name="searchassist_selected">#FF5771FF</color>
+    <color name="searchbar_item_pressed">#26888888</color>
+    <color name="selectable_container_view_overlay">#66000000</color>
+    <color name="share_bar_vertical_separator">#ffe0e0e0</color>
+    <color name="share_blue">#0078FF</color>
+    <color name="share_browser_progress_bar">#009688</color>
+    <color name="spinner_bg_black">#CC000000</color>
+    <color name="tab_bg">#FF3F1B59</color>
+    <color name="tab_bg_selected">#FF44296A</color>
+    <color name="tab_text_selected">#FFFEFEFE</color>
+    <color name="tab_text_unselected">#FF7D5FA9</color>
+    <color name="text_color">#ffffffff</color>
+    <color name="text_color_black">#ff000000</color>
+    <color name="text_color_offwhite">#55ffffff</color>
+    <color name="text_color_red">#ffff0000</color>
+    <color name="timestamp_color">#bf000000</color>
+    <color name="translucent_black">#3F000000</color>
+    <color name="translucent_white">#80FFFFFF</color>
+    <color name="transparent">#17170445</color>
+    <color name="transparent_purple_color">#76400090</color>
+    <color name="transparent_white">#E6FFFFFF</color>
+    <color name="trending_back_color">#EEFFFFFF</color>
+    <color name="trending_selected">#FFFFFFFF</color>
+    <color name="trending_text_color">#FF1D1D1D</color>
+    <color name="trending_yellow">#FFEDC147</color>
+    <color name="video_glass">#7F000000</color>
+    <color name="voice_dialog_inner_circle_color">#A6FFFFFF</color>
+    <color name="voice_dialog_outer_circle_color">#A6000000</color>
+    <color name="voice_purple">#cc9400d3</color>
+    <color name="white">#ffffffff</color>
+    <color name="white_background">#ffffffff</color>
+    <color name="ypurple">#FF400090</color>
+    <color name="ypurple_progress_bar">#FF8700D2</color>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="ysdemo_translucent_background">#99000000</color>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yssdk_colors.xml -->
+    <eat-comment/>
+    <color name="yssdk_black_transparency_10">#1A000000</color>
+    <color name="yssdk_black_transparency_100">#00000000</color>
+    <color name="yssdk_black_transparency_20">#33000000</color>
+    <color name="yssdk_black_transparency_25">#CC000000</color>
+    <color name="yssdk_black_transparency_50">#88000000</color>
+    <color name="yssdk_black_transparency_65">#41000000</color>
+    <color name="yssdk_black_transparency_75">#44000000</color>
+    <color name="yssdk_blue">#770000FF</color>
+    <color name="yssdk_card_drop_shadow">#60000000</color>
+    <color name="yssdk_gray">#FF96989C</color>
+    <color name="yssdk_grey_100">#fff5f5f5</color>
+    <color name="yssdk_grey_1000">#ff000000</color>
+    <color name="yssdk_grey_200">#ffeeeeee</color>
+    <color name="yssdk_grey_300">#ffe0e0e0</color>
+    <color name="yssdk_grey_400">#ffbdbdbd</color>
+    <color name="yssdk_grey_50">#fffafafa</color>
+    <color name="yssdk_grey_500">#ff9e9e9e</color>
+    <color name="yssdk_grey_600">#ff757575</color>
+    <color name="yssdk_grey_700">#ff616161</color>
+    <color name="yssdk_grey_800">#ff424242</color>
+    <color name="yssdk_grey_900">#ff212121</color>
+    <color name="yssdk_grey_card_subtitle">#AAAAAA</color>
+    <color name="yssdk_local_default_thumb_bg">#F1F1f2</color>
+    <color name="yssdk_local_green">#00AD68</color>
+    <color name="yssdk_local_list_border">#E5E5E5</color>
+    <color name="yssdk_local_red">#DC142D</color>
+    <color name="yssdk_sharecard_link_background">#979797</color>
+    <color name="yssdk_tab_color">#F5F4F6</color>
+    <color name="yssdk_translucent_background">#90000000</color>
+    <color name="yssdk_web_gelato_background_color">#FFEEEEEE</color>
+    <color name="yssdk_webcard_border_background">#f1f1f2</color>
+    <declare-styleable name="SelectableCell"><attr format="boolean" name="checked"/><attr format="integer" name="cornerButtonGravity"/></declare-styleable>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yssdk_dimens.xml -->
+    <eat-comment/>
+    <dimen name="yssdk_app_action_bar_height">49dip</dimen>
+    <dimen name="yssdk_app_action_bar_height_with_enhacement">67dip</dimen>
+    <dimen name="yssdk_bing_attribution_height">180dip</dimen>
+    <dimen name="yssdk_button_fontsize">15sp</dimen>
+    <dimen name="yssdk_clear_text">22sp</dimen>
+    <dimen name="yssdk_contact_container_height">88dp</dimen>
+    <dimen name="yssdk_contact_container_width">70dp</dimen>
+    <dimen name="yssdk_contact_icon_height">70dp</dimen>
+    <dimen name="yssdk_contact_name_height">18dp</dimen>
+    <dimen name="yssdk_copyright_action_bar_height_wo_progressbar">46dip</dimen>
+    <dimen name="yssdk_default_tab_bar_height">58dp</dimen>
+    <dimen name="yssdk_enhancement_icon_height">18dip</dimen>
+    <dimen name="yssdk_enhancement_text_size">10dp</dimen>
+    <dimen name="yssdk_error_card_padding">8dp</dimen>
+    <dimen name="yssdk_error_page_margin">8dp</dimen>
+    <dimen name="yssdk_error_page_margin_bottom">19dp</dimen>
+    <dimen name="yssdk_error_page_margin_left_right">12dp</dimen>
+    <dimen name="yssdk_error_page_margin_top">16dp</dimen>
+    <dimen name="yssdk_error_page_message_text_size">15sp</dimen>
+    <dimen name="yssdk_error_page_query_margin_top">0dp</dimen>
+    <dimen name="yssdk_error_page_query_text_size">18sp</dimen>
+    <dimen name="yssdk_error_page_suggestion_bullets_margin_top">9dp</dimen>
+    <dimen name="yssdk_error_page_suggestion_text_view_margin_top">22dp</dimen>
+    <dimen name="yssdk_error_page_try_text_view_margin_right">4dp</dimen>
+    <dimen name="yssdk_error_page_try_text_view_width">40dp</dimen>
+    <dimen name="yssdk_error_page_web_search_button_margin_left">46dp</dimen>
+    <dimen name="yssdk_error_page_web_search_button_margin_right">12dp</dimen>
+    <dimen name="yssdk_error_process_page_margin">20dp</dimen>
+    <dimen name="yssdk_error_process_page_retry_margin_top">28dp</dimen>
+    <dimen name="yssdk_error_process_page_text_margin_top">17dp</dimen>
+    <dimen name="yssdk_image_gallery_margin">10dp</dimen>
+    <dimen name="yssdk_inline_browser_header_height">44dp</dimen>
+    <dimen name="yssdk_list_item_title_H1">18sp</dimen>
+    <dimen name="yssdk_list_item_title_H2">16sp</dimen>
+    <dimen name="yssdk_list_item_title_H3">14sp</dimen>
+    <dimen name="yssdk_list_item_title_H4">14sp</dimen>
+    <dimen name="yssdk_listening_cancel_button_height">35dp</dimen>
+    <dimen name="yssdk_local_list_item_height">110dp</dimen>
+    <dimen name="yssdk_local_list_item_metadata_height">22dp</dimen>
+    <dimen name="yssdk_local_list_item_metadata_margin">10dp</dimen>
+    <dimen name="yssdk_local_list_item_metadata_margin_m1">5dp</dimen>
+    <dimen name="yssdk_local_list_item_metadata_margin_m2">3dp</dimen>
+    <dimen name="yssdk_local_list_item_metadata_margin_m3">2dp</dimen>
+    <dimen name="yssdk_local_list_item_rating_icon_width">75dp</dimen>
+    <dimen name="yssdk_local_list_item_row_one_height">118dp</dimen>
+    <dimen name="yssdk_local_list_thumb_height">110dp</dimen>
+    <dimen name="yssdk_local_list_thumb_width">83dp</dimen>
+    <dimen name="yssdk_local_preview_button_radius_corner">2dp</dimen>
+    <dimen name="yssdk_local_preview_button_text_size">14sp</dimen>
+    <dimen name="yssdk_local_preview_image_height">150dp</dimen>
+    <dimen name="yssdk_local_preview_margin_m1">20dp</dimen>
+    <dimen name="yssdk_local_preview_margin_m2">15dp</dimen>
+    <dimen name="yssdk_local_preview_text_size">16sp</dimen>
+    <dimen name="yssdk_local_preview_title_text_size">25sp</dimen>
+    <dimen name="yssdk_local_preview_yelp_image_width">30dp</dimen>
+    <dimen name="yssdk_no_image_result_t1_fontsize">12pt</dimen>
+    <dimen name="yssdk_no_image_result_t2_fontsize">10pt</dimen>
+    <dimen name="yssdk_no_image_result_t3_fontsize">8pt</dimen>
+    <dimen name="yssdk_padding_size_1">8dp</dimen>
+    <dimen name="yssdk_preview_copyright_textsize">10sp</dimen>
+    <dimen name="yssdk_preview_footer_height">60dp</dimen>
+    <dimen name="yssdk_preview_header_height">70dp</dimen>
+    <dimen name="yssdk_preview_share_height">40dp</dimen>
+    <dimen name="yssdk_preview_subtitle_textsize_large">14sp</dimen>
+    <dimen name="yssdk_preview_subtitle_textsize_small">12sp</dimen>
+    <dimen name="yssdk_preview_title_textsize_large">16sp</dimen>
+    <dimen name="yssdk_preview_title_textsize_small">14sp</dimen>
+    <dimen name="yssdk_preview_title_width">200dp</dimen>
+    <dimen name="yssdk_results_padding_left">8dp</dimen>
+    <dimen name="yssdk_results_padding_right">8dp</dimen>
+    <dimen name="yssdk_results_padding_top">8dp</dimen>
+    <dimen name="yssdk_search_suggest_tip_size">49dp</dimen>
+    <dimen name="yssdk_searchview_holder_height_offset">-3dp</dimen>
+    <dimen name="yssdk_share_bar_font_icon_size">24dp</dimen>
+    <dimen name="yssdk_share_send_button_height">40dp</dimen>
+    <dimen name="yssdk_share_send_margin">50dp</dimen>
+    <dimen name="yssdk_suggest_padding_with_enhancement">64dp</dimen>
+    <dimen name="yssdk_video_list_item_bottom_padding">12dp</dimen>
+    <dimen name="yssdk_video_list_item_details_height">60dp</dimen>
+    <dimen name="yssdk_video_list_item_image_background_height">150dp</dimen>
+    <dimen name="yssdk_video_list_item_play_btn_margin_top">50dp</dimen>
+    <dimen name="yssdk_video_list_item_top_padding">8dp</dimen>
+    <dimen name="yssdk_videocard_gradient_relative_layout_height">45dp</dimen>
+    <dimen name="yssdk_videocard_height">200dp</dimen>
+    <dimen name="yssdk_videocard_relativelayout_image_width">140dp</dimen>
+    <dimen name="yssdk_videocard_relativelayout_text_width">220dp</dimen>
+    <dimen name="yssdk_videocard_video_icon_height_width">21dp</dimen>
+    <dimen name="yssdk_videocard_video_icon_margin_bottom">3dp</dimen>
+    <dimen name="yssdk_videocard_video_icon_margin_right">4dp</dimen>
+    <dimen name="yssdk_videocard_video_icon_text_size">20sp</dimen>
+    <dimen name="yssdk_videocard_video_title_text_size">40px</dimen>
+    <dimen name="yssdk_videocard_video_word_margin_bottom">5dp</dimen>
+    <dimen name="yssdk_videocard_video_word_padding_right">8dp</dimen>
+    <dimen name="yssdk_videocard_video_word_text_size">14sp</dimen>
+    <dimen name="yssdk_videocard_width">360dp</dimen>
+    <dimen name="yssdk_web_suggest_icon_padding">4dp</dimen>
+    <dimen name="yssdk_webcard_border_width">1dp</dimen>
+    <dimen name="yssdk_webcard_height">200dp</dimen>
+    <dimen name="yssdk_webcard_imageview_height">200dp</dimen>
+    <dimen name="yssdk_webcard_relativelayout_width">220dp</dimen>
+    <dimen name="yssdk_webcard_videocard_imageview_width">140dp</dimen>
+    <dimen name="yssdk_webcard_videocard_link_text_size">18sp</dimen>
+    <dimen name="yssdk_webcard_videocard_title_link_margin_left_right">22dp</dimen>
+    <dimen name="yssdk_webcard_videocard_title_margin_start">45dp</dimen>
+    <dimen name="yssdk_webcard_videocard_title_margin_top">18dp</dimen>
+    <dimen name="yssdk_webcard_videocard_title_text_size">20sp</dimen>
+    <dimen name="yssdk_webcard_web_title_web_link_width">176dp</dimen>
+    <dimen name="yssdk_webcard_weblink_margin_left_right">22dp</dimen>
+    <dimen name="yssdk_webcard_width">361dp</dimen>
+    <dimen name="yssdk_yelp_sprite_padding">4dp</dimen>
+    <dimen name="yssdk_yelp_sprite_star_margin">1dp</dimen>
+    <dimen name="yssdk_yelp_sprite_star_size">30dp</dimen>
+    <dimen name="yssdk_yelp_sprite_width">148dp</dimen>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yssdk_integers.xml -->
+    <eat-comment/>
+    <integer name="yssdk_error_line_textview_seperator">1</integer>
+    <integer name="yssdk_max_image_size">2000</integer>
+    <integer name="yssdk_page_margin">3</integer>
+    <integer name="yssdk_video_background_scale_factor">250</integer>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">searchdemo</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yala.xml -->
+    <eat-comment/>
+    <string name="app_not_available">Sorry, %1$s is currently unavailable.</string>
+    <string name="cancel">Cancel</string>
+    <string name="common.powered_by_bing">Powered by Bing&amp;trade;</string>
+    <string name="copy_message_error_toast">There was an error copying the text to the clipboard.</string>
+    <string name="copy_message_success_toast">Message text copied to clipboard.</string>
+    <string name="date_format_month_day">MMM d</string>
+    <string name="date_format_month_day_year">M/d/yy</string>
+    <string name="date_time_format_long">E, MMM d, yyyy \'at\' h:mm a</string>
+    <string name="date_time_format_long_24">E, MMM d, yyyy \'at\' k:mm</string>
+    <string name="date_time_format_short">M/d/yy h:mm a</string>
+    <string name="date_time_format_short_24">M/d/yy k:mm</string>
+    <string name="day_1">%1$dDAY</string>
+    <string name="day_n">%1$dDAYS</string>
+    <string name="download_app">%1$s is currently not installed on your device. Would you like to install %2$s?</string>
+    <string name="download_app_generic_partner">%1$s is currently not installed on your device. Please visit your preferred marketplace to install it.</string>
+    <string name="duration_format_hours">h \'hours,\' m \'min,\' s \'sec\'</string>
+    <string name="duration_format_minutes">m \'min,\' s \'sec\'</string>
+    <string name="duration_format_seconds">s \'sec\'</string>
+    <string name="edit">Edit</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yala.xml -->
+    <eat-comment/>
+    <string name="hr_1">%1$dHR</string>
+    <string name="hr_n">%1$dHRS</string>
+    <string name="loading">Loading\u2026</string>
+    <string name="min_1">%1$dMIN</string>
+    <string name="min_n">%1$dMIN</string>
+    <string name="month_1">%1$dMO</string>
+    <string name="month_n">%1$dMOS</string>
+    <string name="no">No</string>
+    <string name="no_google_play_dialog_message">Google Play is not installed in your device. Please install it before continuing.</string>
+    <string name="no_google_play_dialog_title">Google Play is not installed</string>
+    <string name="no_handling_application_toast">Cannot find application(s) to handle action</string>
+    <string name="ok">OK</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/YahooSearchDemo/mylibrary/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="search">Click Me to Launch Search SDK Activity!</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yala.xml -->
+    <eat-comment/>
+    <string name="sec_1">%1$dSEC</string>
+    <string name="sec_n">%1$dSEC</string>
+    <string name="short_time_format">h:mma</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="title_activity_custom_web_preview">CustomWebPreviewActivity</string>
+    <string name="y_input_label">yinput</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yala.xml -->
+    <eat-comment/>
+    <string name="year_1">%1$dYR</string>
+    <string name="year_n">%1$dYRS</string>
+    <string name="yes">Yes</string>
+    <string name="yssdk_app_title">Yahoo Search</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yssdk_typeface.xml -->
+    <eat-comment/>
+    <string name="yssdk_back_icon"></string>
+    <string name="yssdk_back_icon_2"></string>
+    <string name="yssdk_bullet_point">•</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yala.xml -->
+    <eat-comment/>
+    <string name="yssdk_cancel">Cancel</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yssdk_typeface.xml -->
+    <eat-comment/>
+    <string name="yssdk_checkmark_icon"></string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yala.xml -->
+    <eat-comment/>
+    <string name="yssdk_clear_history_summary">Clear Search History</string>
+    <string name="yssdk_clear_history_title">Clear History</string>
+    <string name="yssdk_clear_history_warning_text">Are you sure?</string>
+    <string name="yssdk_clear_history_warning_title">Clear Search History</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yssdk_typeface.xml -->
+    <eat-comment/>
+    <string name="yssdk_clear_indicator"></string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yala.xml -->
+    <eat-comment/>
+    <string name="yssdk_close">Close</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yssdk_typeface.xml -->
+    <eat-comment/>
+    <string name="yssdk_close_icon"></string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yala.xml -->
+    <eat-comment/>
+    <string name="yssdk_copy">Copy</string>
+    <string name="yssdk_development_mode">Development Mode ON</string>
+    <string name="yssdk_dismiss_button">Dismiss</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yssdk_typeface.xml -->
+    <eat-comment/>
+    <string name="yssdk_downarrow_icon"></string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yala.xml -->
+    <eat-comment/>
+    <string name="yssdk_history_cleared">History Cleared</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yssdk_typeface.xml -->
+    <eat-comment/>
+    <string name="yssdk_history_icon"></string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yala.xml -->
+    <eat-comment/>
+    <string name="yssdk_image_copyright_message">Image may be subject to copyright</string>
+    <string name="yssdk_image_search">Images</string>
+    <string name="yssdk_images_copyright_message">Images may be subject to copyright</string>
+    <string name="yssdk_initializing">Initializing...</string>
+    <string name="yssdk_invalid_yhs_key">Invalid Application ID</string>
+    <string name="yssdk_kb">KB</string>
+    <string name="yssdk_link_not_supported">Link not supported</string>
+    <string name="yssdk_local_address">Address</string>
+    <string name="yssdk_local_call">Call</string>
+    <string name="yssdk_local_category">Category</string>
+    <string name="yssdk_local_closed">Closed</string>
+    <string name="yssdk_local_directions">Directions</string>
+    <string name="yssdk_local_friday">Friday</string>
+    <string name="yssdk_local_hours">Opening Hours</string>
+    <string name="yssdk_local_images">Images</string>
+    <string name="yssdk_local_menu">Menu</string>
+    <string name="yssdk_local_mi">mi</string>
+    <string name="yssdk_local_monday">Monday</string>
+    <string name="yssdk_local_no_location">Please enable location services</string>
+    <string name="yssdk_local_on">on</string>
+    <string name="yssdk_local_opening_hours">Opening Hours</string>
+    <string name="yssdk_local_review">review</string>
+    <string name="yssdk_local_reviews">reviews</string>
+    <string name="yssdk_local_saturday">Saturday</string>
+    <string name="yssdk_local_search">Nearby</string>
+    <string name="yssdk_local_share">Share</string>
+    <string name="yssdk_local_sunday">Sunday</string>
+    <string name="yssdk_local_thursday">Thursday</string>
+    <string name="yssdk_local_today">Today</string>
+    <string name="yssdk_local_tuesday">Tuesday</string>
+    <string name="yssdk_local_view_more_yelp">View more on Yelp</string>
+    <string name="yssdk_local_website">Website</string>
+    <string name="yssdk_local_wednesday">Wednesday</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/locale_res_yssdk_locale_values.xml -->
+    <eat-comment/>
+    <string name="yssdk_locale_defaultSafeSearchSetting">i</string>
+    <string name="yssdk_locale_searchHostURL">en-US</string>
+    <string name="yssdk_locale_searchIntlString">us</string>
+    <string name="yssdk_locale_voiceSearchLocale">en_US</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yala.xml -->
+    <eat-comment/>
+    <string name="yssdk_mb">MB</string>
+    <string name="yssdk_menu_copy">Copy link</string>
+    <string name="yssdk_menu_open">Open in browser</string>
+    <string name="yssdk_menu_send">Share</string>
+    <string name="yssdk_menu_send_image">Share</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yssdk_typeface.xml -->
+    <eat-comment/>
+    <string name="yssdk_mic_icon"></string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yala.xml -->
+    <eat-comment/>
+    <string name="yssdk_network_error">No internet connection found.</string>
+    <string name="yssdk_no">No</string>
+    <string name="yssdk_no_image_results_found">No image results were found for:</string>
+    <string name="yssdk_no_internet">You are not connected to the Internet, check connection and try again.</string>
+    <string name="yssdk_no_local_results_found">No local results were found for:</string>
+    <string name="yssdk_no_video_results_found">No video results were found for:</string>
+    <string name="yssdk_no_web_results_found">No web results were found for:</string>
+    <string name="yssdk_open">Open</string>
+    <string name="yssdk_open_in_browser">Open in Browser</string>
+    <string name="yssdk_processing">Processing...</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yssdk_typeface.xml -->
+    <eat-comment/>
+    <string name="yssdk_querybuilder_icon"></string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yala.xml -->
+    <eat-comment/>
+    <string name="yssdk_request_error">We can not process your request this time.</string>
+    <string name="yssdk_result_error_suggestion_check_spelling">Check your spelling</string>
+    <string name="yssdk_result_error_suggestion_try_more_words">Try more general words</string>
+    <string name="yssdk_result_error_suggestion_word">Suggestions:</string>
+    <string name="yssdk_result_error_try_word">Try</string>
+    <string name="yssdk_result_error_web_search_button_text">Web Search</string>
+    <string name="yssdk_retry_button">Try again</string>
+    <string name="yssdk_retry_button_text">Retry</string>
+    <string name="yssdk_safe_search">Safe Search</string>
+    <string name="yssdk_safe_search_off_accept">I Accept</string>
+    <string name="yssdk_safe_search_off_deny">I Don\'t Accept</string>
+    <string name="yssdk_safe_search_off_terms">This area contains material of a mature and adult nature that may not be suitable for younger users. You must be over the age of 18 to view mature content.\n\nBy disabling the mature content filter, you may find material that is of an explicit adult nature. If you are under the age of 18 or do not wish to continue, click below to return to the previous page. By clicking the \"I Accept\" button below, you certify that you are at least 18 years of age and understand the conditions of use.</string>
+    <string name="yssdk_safe_search_off_title">You’ve reached an Age-Restricted Area of Yahoo Search</string>
+    <string name="yssdk_safesearch_moderate">Moderate</string>
+    <string name="yssdk_safesearch_off">Off</string>
+    <string name="yssdk_safesearch_strict">Strict</string>
+    <string name="yssdk_search">Search</string>
+    <string name="yssdk_search_copyright">May be subject to copyright</string>
+    <string name="yssdk_search_enhancement_no_trans">Enhanced by</string>
+    <string name="yssdk_search_for">Search for \"%1$s\"</string>
+    <string name="yssdk_search_history">Search History</string>
+    <string name="yssdk_search_history_disabled">Disabled</string>
+    <string name="yssdk_search_history_enabled">Enabled</string>
+    <string name="yssdk_search_or_speak">Search or speak</string>
+    <string name="yssdk_search_preferences_title">Search Preferences</string>
+    <string name="yssdk_search_status_error">Search experience is disabled.</string>
+    <string name="yssdk_setting_search_title">Search Settings</string>
+    <string name="yssdk_settings_about">About</string>
+    <string name="yssdk_share">Share</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yssdk_typeface.xml -->
+    <eat-comment/>
+    <string name="yssdk_share_icon"></string>
+    <string name="yssdk_share_message_icon"></string>
+    <string name="yssdk_share_send_icon"></string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yala.xml -->
+    <eat-comment/>
+    <string name="yssdk_share_via">Share via</string>
+    <string name="yssdk_show_all_history">Show All History</string>
+    <string name="yssdk_suggestions">Suggestions:\nMake sure words are spelled correctly.\nTry more general words.\nTry different words that mean the same thing.</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yssdk_typeface.xml -->
+    <eat-comment/>
+    <string name="yssdk_trending_icon"></string>
+    <string name="yssdk_uparrow_icon"></string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yala.xml -->
+    <eat-comment/>
+    <string name="yssdk_video_search">Videos</string>
+    <string name="yssdk_video_word">Video</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yssdk_typeface.xml -->
+    <eat-comment/>
+    <string name="yssdk_videoicon"></string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yala.xml -->
+    <eat-comment/>
+    <string name="yssdk_voice_error">We didn\'t quite get that. Please try again.</string>
+    <string name="yssdk_voice_listening">We are listening...</string>
+    <string name="yssdk_voice_processing">Working on it...</string>
+    <string name="yssdk_web_search">Web</string>
+    <string name="yssdk_webview_loading">Loading..</string>
+    <string name="yssdk_yes">Yes</string>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="Demo.translucent" parent="android:Theme.Holo.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/ysdemo_translucent_background</item>
+    </style>
+    <style name="DemoSearchTabs">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/search_tab_standard</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values/yssdk_search_style.xml -->
+    <eat-comment/>
+    <style name="DialogAnimationFade">
+        <item name="android:windowEnterAnimation">@anim/yssdk_fade_in_dialog</item>
+        <item name="android:windowExitAnimation">@anim/yssdk_fade_out_dialog</item>
+    </style>
+    <style name="PreviewActionBar" parent="android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/yssdk_gradient_top</item>
+    </style>
+    <style name="PreviewActionBarOverflow" parent="android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/yssdk_overflow_menu_icon</item>
+    </style>
+    <style name="Search.Suggest.Container" parent="android:Theme.Holo.Light.NoActionBar">
+
+    </style>
+    <style name="Search.Suggest.Container.Card">
+        <item name="android:background">#ffffff</item>
+    </style>
+    <style name="Search.Suggest.Container.Icon">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="Search.Suggest.Container.Icon.Contact">
+        <item name="android:padding">4dp</item>
+    </style>
+    <style name="Search.Suggest.List" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/search_text_color_gray</item>
+    </style>
+    <style name="Search.TitleText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/search_text_color_gray</item>
+    </style>
+    <style name="SearchTabs">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/search_tab_standard</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="SearchToLink.Preview" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/PreviewActionBar</item>
+        <item name="android:actionOverflowButtonStyle">@style/PreviewActionBarOverflow</item>
+        <item name="android:actionBarSize">50dp</item>
+    </style>
+    <style name="SearchToLink.Preview.Overlay">
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+</resources>

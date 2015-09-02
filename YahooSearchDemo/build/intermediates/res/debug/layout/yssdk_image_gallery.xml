@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/image_gallery_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/black" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/gallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+    <include
+        android:id="@+id/share_footer_view"
+        android:visibility="gone"
+        layout="@layout/yssdk_preview_footer" />
+
+</FrameLayout><!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/layout/yssdk_image_gallery.xml -->

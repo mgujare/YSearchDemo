@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="@dimen/yssdk_videocard_width"
+              android:layout_height="@dimen/yssdk_videocard_height"
+              android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:layout_width="@dimen/yssdk_videocard_relativelayout_image_width"
+        android:layout_height="@dimen/yssdk_videocard_height"
+        android:layout_gravity="left"
+        android:background="@color/search_text_color_black">
+
+        <ImageView
+            android:layout_width="@dimen/yssdk_webcard_videocard_imageview_width"
+            android:layout_height="match_parent"
+            android:id="@+id/video_image"
+            android:scaleType="centerCrop"
+            android:background="@drawable/yssdk_gradient_video_share_card_image"
+            android:src="@drawable/yssdk_video_card_default"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relative_layout_gradient"
+            android:layout_alignParentBottom="true"
+            android:gravity="bottom"
+            android:layout_height="@dimen/yssdk_videocard_gradient_relative_layout_height">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/page_indicator_color_active"
+                android:textSize="@dimen/yssdk_videocard_video_word_text_size"
+                android:text="@string/yssdk_video_word"
+                android:id="@+id/video_word"
+                android:paddingRight="@dimen/yssdk_videocard_video_word_padding_right"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/yssdk_videocard_video_word_margin_bottom"/>
+
+            <TextView
+                android:layout_width="@dimen/yssdk_videocard_video_icon_height_width"
+                android:layout_height="@dimen/yssdk_videocard_video_icon_height_width"
+                android:layout_gravity="center_vertical"
+                android:text="@string/yssdk_videoicon"
+                android:textColor="@color/page_indicator_color_active"
+                android:id="@+id/video_icon"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@id/video_word"
+                android:textSize="@dimen/yssdk_videocard_video_icon_text_size"
+                android:layout_marginRight="@dimen/yssdk_videocard_video_icon_margin_right"
+                android:layout_marginBottom="@dimen/yssdk_videocard_video_icon_margin_bottom"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/yssdk_videocard_relativelayout_text_width"
+        android:layout_height="@dimen/yssdk_videocard_height"
+        android:layout_gravity="right"
+        android:background="@color/page_indicator_color_active">
+
+
+        <TextView
+            android:id="@+id/video_title"
+            android:layout_width="@dimen/yssdk_webcard_web_title_web_link_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/yssdk_webcard_videocard_title_link_margin_left_right"
+            android:layout_marginRight="@dimen/yssdk_webcard_videocard_title_link_margin_left_right"
+            android:layout_marginStart="@dimen/yssdk_webcard_videocard_title_margin_start"
+            android:layout_marginTop="@dimen/yssdk_webcard_videocard_title_margin_top"
+            android:fontFamily="Roboto-Regular"
+            android:maxLines="5"
+            android:text=""
+            android:ellipsize="end"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/search_text_color_black"
+            android:textSize="@dimen/yssdk_webcard_videocard_title_text_size"/>
+
+        <TextView
+            android:id="@+id/video_link"
+            android:layout_width="@dimen/yssdk_webcard_web_title_web_link_width"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/video_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/yssdk_webcard_videocard_title_link_margin_left_right"
+            android:layout_marginRight="@dimen/yssdk_webcard_videocard_title_link_margin_left_right"
+            android:fontFamily="Roboto-Regular"
+            android:lines="1"
+            android:text=""
+            android:ellipsize="end"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/yssdk_sharecard_link_background"
+            android:textSize="@dimen/yssdk_webcard_videocard_link_text_size"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+        <com.yahoo.mobile.client.share.search.ui.SearchBrowserWebView
+            android:id="@+id/search_browser_webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+            <com.yahoo.mobile.client.share.search.ui.view.YProgressBar
+                android:id="@+id/web_progress_spinner"
+                android:layout_width="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_height="5dp"
+                android:visibility="visible" />
+
+        <FrameLayout
+            android:id="@+id/footer_view"
+            android:layout_width="match_parent"
+            android:background="@android:color/black"
+            android:layout_height="@dimen/yssdk_preview_footer_height"
+            android:layout_gravity="bottom"
+            android:gravity="center" >
+
+            <include layout="@layout/yssdk_preview_footer" />
+        </FrameLayout>
+</FrameLayout>
+<!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/layout/ysssdk_search_browser_view.xml -->

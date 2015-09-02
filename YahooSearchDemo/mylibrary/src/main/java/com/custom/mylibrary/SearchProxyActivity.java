@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 import com.yahoo.mobile.client.share.search.ui.activity.SearchActivity;
 import com.yahoo.mobile.client.share.search.ui.activity.SearchLayoutParams;
@@ -15,6 +17,13 @@ public class SearchProxyActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_proxy);
+        TextView tv = (TextView) findViewById(R.id.tv);
+        tv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                lauchSearch();
+            }
+        });
     }
 
     @Override
@@ -33,19 +42,23 @@ public class SearchProxyActivity extends Activity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            SearchActivity.IntentBuilder builder = new SearchActivity.IntentBuilder();
-            builder.showAppSuggestions(true);
-
-            // Adding margin to the SearchActivity
-            SearchLayoutParams params = new SearchLayoutParams();
-            params.globalTopMargin = 200;
-            builder.setSearchLayoutParams(params);
-
-            Intent intent = builder.buildIntent(SearchProxyActivity.this);
-            startActivity(intent);
+            lauchSearch();
             return true;
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void lauchSearch() {
+        SearchActivity.IntentBuilder builder = new SearchActivity.IntentBuilder();
+        builder.showAppSuggestions(true);
+
+        // Adding margin to the SearchActivity
+        SearchLayoutParams params = new SearchLayoutParams();
+        params.globalTopMargin = 200;
+        builder.setSearchLayoutParams(params);
+
+        Intent intent = builder.buildIntent(SearchProxyActivity.this);
+        startActivity(intent);
     }
 }

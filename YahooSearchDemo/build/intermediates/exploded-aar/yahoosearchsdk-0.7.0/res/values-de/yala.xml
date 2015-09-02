@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file has been created by Yahoo! Android build system. DO NOT EDIT MANUALLY -->
+<!-- Synopsis:                                                                       -->
+<!-- Strings starting with !: -> This string is in the template file but not in the  -->
+<!--                             matching translation nor in the default translation.-->
+<!-- Strings starting with *: -> No matching translation (with matching locale )file -->
+<!--                             for the template file containing this string found. -->
+<!-- Strings starting with $: -> The string value is different in override. e.g. if  -->
+<!--                             it is defined in share and project but has different-->
+<!--                             value in share. If this on purpose ust @Override    -->
+<!--                             keyword inside the template comment to mark it it as-->
+<!--                             overriding the shave value on purpose.              -->
+<resources>
+	<string name="yssdk_app_title">Yahoo Suche</string>
+	<string name="yssdk_processing">Verarbeitung läuft...</string>
+	<string name="yssdk_initializing">Initialisierung...</string>
+	<string name="yssdk_share">Teilen</string>
+	<string name="yssdk_search">Suchen</string>
+	<string name="yssdk_search_or_speak">Suchen</string>
+	<string name="yssdk_search_for">Suchen nach  „%1$s“</string>
+	<string name="yssdk_kb">KB</string>
+	<string name="yssdk_mb">MB</string>
+	<string name="yssdk_voice_processing">Ist in Arbeit ...</string>
+	<string name="yssdk_voice_listening">Ganz Ohr…</string>
+	<string name="yssdk_voice_error">Das war etwas schwer zu verstehen. Versuchen Sie es noch einmal.</string>
+	<string name="yssdk_cancel">Abbrechen</string>
+	<string name="yssdk_close">Schließen</string>
+	<string name="yssdk_safe_search">Familienfilter</string>
+	<string name="yssdk_setting_search_title">Sucheinstellungen</string>
+	<string name="yssdk_search_preferences_title">Sucheinstellungen</string>
+	<string name="yssdk_clear_history_title">Verlauf löschen</string>
+	<string name="yssdk_clear_history_summary">Suchverlauf löschen</string>
+	<string name="yssdk_show_all_history">Show All History</string>
+	<string name="yssdk_history_cleared">Verlauf gelöscht</string>
+	<string name="yssdk_network_error">Keine Internetverbindung gefunden.</string>
+	<string name="yssdk_request_error">Ihr Anfrage kann derzeit nicht bearbeitet werden.</string>
+	<string name="yssdk_search_status_error">Suche ist deaktiviert</string>
+	<string name="yssdk_retry_button">Erneut versuchen</string>
+	<string name="yssdk_dismiss_button">Schließen</string>
+	<string name="yssdk_clear_history_warning_title">Suchverlauf löschen</string>
+	<string name="yssdk_clear_history_warning_text">Sind Sie sicher?</string>
+	<string name="yssdk_yes">Ja</string>
+	<string name="yssdk_no">Nein</string>
+	<string name="yssdk_no_internet">Es besteht keine Verbindung zum Internet. Bitte überprüfen Sie die Verbindung und versuchen Sie es erneut.</string>
+	<string name="yssdk_settings_about">Info</string>
+	<string name="yssdk_open">Öffnen</string>
+	<string name="yssdk_copy">Kopieren</string>
+	<string name="yssdk_open_in_browser">In Browser öffnen</string>
+	<string name="yssdk_search_copyright">Ist möglicherweise urheberrechtlich geschützt</string>
+	<string name="yssdk_no_web_results_found">Keine Ergebnisse in der Websuche gefunden für:</string>
+	<string name="yssdk_no_image_results_found">Keine Ergebnisse in der Bilder-Suche gefunden für:</string>
+	<string name="yssdk_no_video_results_found">Keine Ergebnisse in der Videosuche gefunden für:</string>
+	<string name="yssdk_no_local_results_found">Keine Ergebnisse in der lokalen Suche gefunden für:</string>
+	<string name="yssdk_suggestions">Vorschläge: \nAuf korrekte Schreibweise achten\nAllgemeinere Begriffe verwenden\nUnterschiedliche Wörter mit gleicher Bedeutung verwenden</string>
+	<string name="yssdk_search_enhancement_no_trans">Erweitert um</string>
+	<string name="common.powered_by_bing">Powered by Bing&amp;trade;</string>
+	<string name="yssdk_retry_button_text">Wiederholen</string>
+	<string name="yssdk_result_error_suggestion_word">Vorschläge:</string>
+	<string name="yssdk_result_error_suggestion_check_spelling">Überprüfen Sie die Schreibweise</string>
+	<string name="yssdk_result_error_suggestion_try_more_words">Verwenden Sie allgemeinere Suchbegriffe</string>
+	<string name="yssdk_result_error_try_word">Versuchen</string>
+	<string name="yssdk_result_error_web_search_button_text">Websuche</string>
+	<string name="yssdk_web_search">Web</string>
+	<string name="yssdk_image_search">Bilder</string>
+	<string name="yssdk_video_search">Videos</string>
+	<string name="yssdk_local_search">In der Nähe</string>
+	<string name="yssdk_share_via">Freigeben über</string>
+	<string name="yssdk_invalid_yhs_key">Ungültige Anwendungs-ID</string>
+	<string name="yssdk_development_mode">Entwicklungsmodus AKTIVIERT</string>
+	<string name="yssdk_safesearch_moderate">Gemäßigt</string>
+	<string name="yssdk_safesearch_strict">Streng</string>
+	<string name="yssdk_safesearch_off">Aus</string>
+	<string name="yssdk_search_history">Suchverlauf</string>
+	<string name="yssdk_search_history_enabled">Aktiviert</string>
+	<string name="yssdk_search_history_disabled">Deaktiviert</string>
+	<string name="yssdk_safe_search_off_title">Sie haben einen Bereich der Yahoo Suche mit Altersbeschränkung erreicht</string>
+	<string name="yssdk_safe_search_off_terms">Dieser Bereich enthält nicht jugendfreie und pornographische Inhalte, die nicht für jüngere Benutzer geeignet sind. Sie müssen über 18 Jahre sein, um auf nicht jugendfreie Inhalte zugreifen zu dürfen.\n\nWenn Sie den Jugendschutzfilter deaktivieren, werden Ihnen möglicherweise nicht jugendfreie Inhalte angezeigt. Wenn Sie unter 18 Jahre sind oder nicht fortfahren möchten, klicken Sie unten, um auf die vorherige Seite zurückzukehren. Indem Sie auf \"Akzeptieren“ klicken, bestätigen Sie, dass Sie mindestens 18 Jahre alt sind und den  Allgemeinen Geschäftsbedingungen zustimmen.</string>
+	<string name="yssdk_safe_search_off_accept">Ich akzeptiere</string>
+	<string name="yssdk_safe_search_off_deny">Ich akzeptiere nicht</string>
+	<string name="yssdk_images_copyright_message">Bilder können urheberrechtlich geschützt sein.</string>
+	<string name="yssdk_image_copyright_message">Dieses Bild ist möglicherweise urheberrechtlich geschützt</string>
+	<string name="yssdk_menu_send">Teilen</string>
+	<string name="yssdk_menu_copy">Link kopieren</string>
+	<string name="yssdk_menu_open">In Browser öffnen</string>
+	<string name="yssdk_webview_loading">Ladevorgang läuft...</string>
+	<string name="yssdk_link_not_supported">Link not supported</string>
+	<string name="yssdk_menu_send_image">Teilen</string>
+	<string name="yssdk_local_share">Teilen</string>
+	<string name="yssdk_local_call">Anrufen</string>
+	<string name="yssdk_local_directions">Wegbeschreibung</string>
+	<string name="yssdk_local_menu">Menü</string>
+	<string name="yssdk_local_opening_hours">Öffnungszeiten</string>
+	<string name="yssdk_local_website">Website</string>
+	<string name="yssdk_local_today">Heute</string>
+	<string name="yssdk_local_monday">Montag</string>
+	<string name="yssdk_local_tuesday">Dienstag</string>
+	<string name="yssdk_local_wednesday">Mittwoch</string>
+	<string name="yssdk_local_thursday">Donnerstag</string>
+	<string name="yssdk_local_friday">Freitag</string>
+	<string name="yssdk_local_saturday">Samstag</string>
+	<string name="yssdk_local_sunday">Sonntag</string>
+	<string name="yssdk_local_view_more_yelp">Mehr bei Yelp anzeigen</string>
+	<string name="yssdk_local_address">Adresse</string>
+	<string name="yssdk_local_hours">Öffnungszeiten</string>
+	<string name="yssdk_local_category">Kategorie</string>
+	<string name="yssdk_local_images">Bilder</string>
+	<string name="yssdk_local_reviews">Bewertungen</string>
+	<string name="yssdk_local_review">Bewertung</string>
+	<string name="yssdk_local_closed">Geschlossen</string>
+	<string name="yssdk_local_mi">Meilen</string>
+	<string name="yssdk_local_on">bei</string>
+	<string name="yssdk_local_no_location">Bitte Standortdienste aktivieren</string>
+	<string name="yssdk_video_word">Video</string>
+	<string name="cancel">Abbrechen</string>
+	<string name="app_name">Mail</string>
+	<string name="loading">Laden\u2026</string>
+	<string name="edit">Bearbeiten</string>
+	<string name="download_app">%1$s ist gegenwärtig nicht auf Ihrem Gerät installiert. Soll %2$s installiert werden?</string>
+	<string name="download_app_generic_partner">%1$s ist gegenwärtig nicht auf Ihrem Gerät installiert. Bitte besuchen Sie Ihren bevorzugten Marktplatz, um die App zu installieren.</string>
+	<string name="ok">OK</string>
+	<string name="yes">Ja</string>
+	<string name="no">Nein</string>
+	<string name="app_not_available">%1$s ist zurzeit leider nicht verfügbar.</string>
+	<string name="duration_format_hours">h \'hours,\' m \'min,\' s \'sec\'</string>
+	<string name="duration_format_minutes">m \'min,\' s \'sec\'</string>
+	<string name="duration_format_seconds">s \'sec\'</string>
+	<string name="short_time_format">k:mm</string>
+	<string name="date_format_month_day">d. MMM</string>
+	<string name="date_format_month_day_year">d.M.yy</string>
+	<string name="date_time_format_short_24">k:mm d.M.yy</string>
+	<string name="date_time_format_short">k:mm d.M.yy</string>
+	<string name="date_time_format_long_24">E, d. MMM yyyy \'um\' k:mm</string>
+	<string name="date_time_format_long">E, d. MMM yyyy \'um\' h:mm a</string>
+	<string name="year_1">%1$d J.</string>
+	<string name="year_n">%1$d J.</string>
+	<string name="month_1">%1$d Mon.</string>
+	<string name="month_n">%1$d Mon.</string>
+	<string name="day_1">%1$d TAG</string>
+	<string name="day_n">%1$d TAGE</string>
+	<string name="hr_1">%1$d Std.</string>
+	<string name="hr_n">%1$d Std.</string>
+	<string name="min_1">%1$d Min.</string>
+	<string name="min_n">%1$d Min.</string>
+	<string name="sec_1">%1$d Sek.</string>
+	<string name="sec_n">%1$d Sek.</string>
+	<string name="copy_message_success_toast">Text der Mail in die Zwischenablage kopiert.</string>
+	<string name="copy_message_error_toast">Fehler beim Kopieren in die Zwischenablage.</string>
+	<string name="no_google_play_dialog_title">Google Play ist nicht installiert.</string>
+	<string name="no_google_play_dialog_message">Google Play ist auf Ihrem Handy nicht installiert. Bitte installieren Sie es und fahren Sie dann fort.</string>
+	<string name="no_handling_application_toast">Keine Anwendung(en) für diese Aktion gefunden</string>
+</resources>

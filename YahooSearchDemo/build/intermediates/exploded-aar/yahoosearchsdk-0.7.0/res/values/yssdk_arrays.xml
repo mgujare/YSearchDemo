@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="longPressListOptionsWithMinibrowserEnabled">
+		<item>@string/yssdk_open</item>
+        <item>@string/yssdk_copy</item>
+    </string-array>
+
+    <string-array name="longPressListOptionsWithMinibrowserDisabled">
+        <item>@string/yssdk_copy</item>
+        <item>@string/yssdk_open_in_browser</item>
+    </string-array>
+
+</resources>

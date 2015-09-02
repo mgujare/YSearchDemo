@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values-hdpi/yssdk_dimens.xml -->
+    <eat-comment/>
+    <integer name="yssdk_max_image_size">1280</integer>
+</resources>

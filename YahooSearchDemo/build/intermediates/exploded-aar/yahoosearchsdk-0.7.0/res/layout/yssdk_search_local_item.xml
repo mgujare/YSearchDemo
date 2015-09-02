@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/yssdk_local_list_item_height"
+    android:background="@drawable/yssdk_local_list_item_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/yssdk_local_list_item_height"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/yssdk_local_list_item_metadata_margin"
+            android:layout_weight="0.75"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingLeft="@dimen/yssdk_local_list_item_metadata_margin_m1"
+                android:paddingRight="@dimen/yssdk_local_list_item_metadata_margin_m1"
+                android:singleLine="true"
+                android:textSize="@dimen/yssdk_list_item_title_H1"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/yssdk_local_list_item_metadata_height"
+                android:paddingLeft="@dimen/yssdk_local_list_item_metadata_margin_m1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.yahoo.mobile.client.share.search.ui.view.RatingView
+                    android:id="@+id/rating"
+                    android:layout_width="@dimen/yssdk_local_list_item_rating_icon_width"
+                    android:layout_height="15dp"
+                    android:paddingLeft="@dimen/yssdk_local_list_item_metadata_margin_m1"
+                    android:paddingRight="@dimen/yssdk_local_list_item_metadata_margin_m1"
+                    android:scaleType="centerCrop"
+                    android:singleLine="true"/>
+
+                <TextView
+                    android:id="@+id/nrating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:text=""
+                    android:textSize="@dimen/yssdk_list_item_title_H3"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/yssdk_grey_card_subtitle"
+                    />
+
+                <TextView
+                    android:id="@+id/isOpenSeparator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/yssdk_local_list_item_metadata_margin_m3"
+                    android:layout_marginRight="@dimen/yssdk_local_list_item_metadata_margin_m3"
+                    android:layout_marginTop="-3dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/yssdk_grey_card_subtitle"
+                    android:textStyle="bold"
+                    android:singleLine="true"
+                    android:text="."/>
+
+                <TextView
+                    android:id="@+id/isopen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/yssdk_list_item_title_H3"
+                    android:paddingLeft="@dimen/yssdk_local_list_item_metadata_margin_m2"
+                    android:paddingRight="@dimen/yssdk_local_list_item_metadata_margin_m2"
+                    android:text=""
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/yssdk_local_list_item_metadata_height"
+                    android:gravity="center_vertical"
+                    android:paddingTop="@dimen/yssdk_local_list_item_metadata_margin_m2"
+                    android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/yssdk_local_list_item_metadata_margin_m1"
+                    android:paddingRight="@dimen/yssdk_local_list_item_metadata_margin_m2"
+                    android:textSize="@dimen/yssdk_list_item_title_H3"
+                    android:text=""
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/separator_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/yssdk_local_list_item_metadata_margin_m3"
+                    android:layout_marginRight="@dimen/yssdk_local_list_item_metadata_margin_m3"
+                    android:layout_marginTop="-3dp"
+                    android:textColor="@color/black"
+                    android:singleLine="true"
+                    android:textStyle="bold"
+                    android:text="."/>
+
+                <TextView
+                    android:id="@+id/symbolic_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/yssdk_local_list_item_metadata_margin_m3"
+                    android:layout_marginRight="@dimen/yssdk_local_list_item_metadata_margin_m3"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:text=""/>
+
+                <TextView
+                    android:id="@+id/separator_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/yssdk_local_list_item_metadata_margin_m3"
+                    android:layout_marginRight="@dimen/yssdk_local_list_item_metadata_margin_m3"
+                    android:layout_marginTop="-3dp"
+                    android:textColor="@color/black"
+                    android:singleLine="true"
+                    android:textStyle="bold"
+                    android:text="."/>
+
+                <TextView
+                    android:id="@+id/type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/yssdk_local_list_item_metadata_margin_m3"
+                    android:paddingRight="@dimen/yssdk_local_list_item_metadata_margin_m3"
+                    android:textSize="@dimen/yssdk_list_item_title_H3"
+                    android:text=""
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/yssdk_local_list_item_metadata_margin_m2"
+                android:paddingLeft="@dimen/yssdk_local_list_item_metadata_margin_m1"
+                android:paddingRight="@dimen/yssdk_local_list_item_metadata_margin_m2"
+                android:textSize="@dimen/yssdk_list_item_title_H3"
+                android:text=""
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/yssdk_grey_card_subtitle"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/local_result_thumb"
+            android:layout_width="@dimen/yssdk_local_list_thumb_width"
+            android:layout_height="@dimen/yssdk_local_list_thumb_height"
+            android:background="@color/yssdk_local_default_thumb_bg"
+            android:src="@drawable/yssdk_local_list_default_icon"
+            android:scaleType="centerCrop"
+            android:layout_gravity="right"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/searchassist_divider" />
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card"
+    style="@style/Search.Suggest.Container.Card"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@drawable/yssdk_suggest_item_background"
+    >
+
+    <ImageView
+        android:id="@+id/icon"
+        style="@style/Search.Suggest.Container.Icon.Contact"
+        android:layout_margin="4dp"
+        />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/icon"
+        android:layout_toEndOf="@id/icon"
+        android:layout_marginTop="11dp"
+        android:text="Stephanie Ciancio"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:ellipsize="start"
+        android:paddingRight="4dp"
+        />
+
+    <TextView
+        android:id="@+id/subtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/icon"
+        android:layout_toEndOf="@id/icon"
+        android:layout_below="@id/text"
+        android:layout_marginTop="2dp"
+        android:text="(415) 676-1639"
+        android:textColor="#999999"
+        android:textSize="12sp"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:ellipsize="end"
+        />
+
+
+    <TextView
+        android:id="@+id/queryBorderBottom"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="1px"
+        android:background="#cccccc"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/framelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@null" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:paddingBottom="16dp"
+        android:background="@drawable/yssdk_local_list_item_row_one_round_bg"
+        layout="@layout/yssdk_result_generic_error_message"
+        android:visibility="gone" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:paddingBottom="16dp"
+        android:background="@drawable/yssdk_local_list_item_row_one_round_bg"
+        layout="@layout/yssdk_result_process_error_message"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/image_list_justified"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:animationCache="true"
+        android:background="@drawable/yssdk_list_items_stateful"
+        android:clickable="true"
+        android:clipToPadding="false"
+        android:divider="@color/full_transparent"
+        android:overScrollFooter="@null"
+        android:visibility="gone"
+        android:paddingTop="@dimen/yssdk_results_padding_top" />
+
+</FrameLayout>

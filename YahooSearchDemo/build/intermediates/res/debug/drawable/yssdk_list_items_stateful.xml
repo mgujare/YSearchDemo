@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/list_item_pressed" android:state_pressed="true"/>
+    
+    <item android:drawable="@color/full_transparent"></item>
+
+</selector><!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/drawable/yssdk_list_items_stateful.xml -->

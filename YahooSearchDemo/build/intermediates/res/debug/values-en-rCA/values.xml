@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/values-en-rCA/locale_res_yssdk_locale_values.xml -->
+    <eat-comment/>
+    <bool name="yssdk_locale_areTrendingSuggestionsEnabled">false</bool>
+    <bool name="yssdk_locale_isImageGalleryEnabled">true</bool>
+    <bool name="yssdk_locale_isImageSearchEnabled">true</bool>
+    <bool name="yssdk_locale_isImageSearchPoweredByFlickr">false</bool>
+    <bool name="yssdk_locale_isLocalSearchEnabled">false</bool>
+    <bool name="yssdk_locale_isPoweredByYahoo7">false</bool>
+    <bool name="yssdk_locale_isSafeSearchConfigurable">true</bool>
+    <bool name="yssdk_locale_isSafeSearchModerateOptionAvailable">true</bool>
+    <bool name="yssdk_locale_isSafeSearchOffOptionAvailable">true</bool>
+    <bool name="yssdk_locale_isSearchSuggestionEnabled">true</bool>
+    <bool name="yssdk_locale_isVideoSearchEnabled">true</bool>
+    <bool name="yssdk_locale_isVoiceSearchEnabled">true</bool>
+    <bool name="yssdk_locale_isWebSearchPoweredByGoogle">false</bool>
+    <string name="yssdk_locale_defaultSafeSearchSetting">i</string>
+    <string name="yssdk_locale_searchHostURL">en-CA</string>
+    <string name="yssdk_locale_searchIntlString">ca</string>
+    <string name="yssdk_locale_voiceSearchLocale">en_US</string>
+</resources>

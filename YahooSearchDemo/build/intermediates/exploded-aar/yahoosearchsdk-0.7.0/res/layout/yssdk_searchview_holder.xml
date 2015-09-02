@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yahoo.mobile.client.share.search.ui.view.SearchViewHolder
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/yssdk_app_action_bar_height"
+    android:animateLayoutChanges="true"
+    android:animationCache="true"
+    android:background="@drawable/yssdk_search_bar_background_new"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/closeButton"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:contentDescription="@string/yssdk_close"
+        android:src="@drawable/yssdk_back_chevron"
+        android:background="@drawable/yssdk_searchbar_item_stateful"/>
+
+    <FrameLayout
+        android:id="@+id/searchbar_edittext_container"
+        android:background="#FFFFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp">
+
+        <EditText
+            android:id="@+id/clearable_edit"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:layout_marginRight="46dp"
+            android:cursorVisible="true"
+            android:hint="@string/yssdk_search_or_speak"
+            android:imeOptions="flagNoExtractUi|actionSearch"
+            android:inputType="textFilter"
+            android:lines="1"
+            android:paddingLeft="12dp"
+            android:paddingRight="7dp"
+            android:selectAllOnFocus="true"
+            android:background="@null"
+            android:singleLine="true"
+            android:tag="clearable_edit"
+            android:textColor="@color/search_box_text"
+            android:textCursorDrawable="@null"
+            android:textSize="18sp" />
+
+        <FrameLayout
+            android:id="@+id/voice_search_clickable"
+            android:layout_width="46dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:clickable="true" >
+
+            <TextView
+                android:id="@+id/voice_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="3dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/ypurple"
+                android:textSize="21dp" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/clear_button_clickable"
+            android:layout_width="46dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:clickable="true" >
+
+            <TextView
+                android:id="@+id/clear_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:contentDescription="@string/yssdk_close"
+                android:gravity="center"
+                android:textSize="@dimen/yssdk_clear_text"
+                android:textColor="@color/clearable_button_color"/>
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</com.yahoo.mobile.client.share.search.ui.view.SearchViewHolder>

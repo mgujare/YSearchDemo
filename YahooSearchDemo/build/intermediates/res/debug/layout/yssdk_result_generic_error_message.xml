@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/results_error_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/yssdk_error_page_margin"
+    android:visibility="gone"
+    android:background="@drawable/yssdk_background_round_bottom_corners_with_shadow_error_card"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/text_view_results_error_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="Roboto-Regular"
+        android:layout_marginTop="@dimen/yssdk_error_page_margin_top"
+        android:layout_marginLeft="@dimen/yssdk_error_page_margin_left_right"
+        android:layout_marginRight="@dimen/yssdk_error_page_margin_left_right"
+        android:text=""
+        android:gravity="left"
+        android:textColor="@color/black"
+        android:textSize="@dimen/yssdk_error_page_message_text_size" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_view_results_error_search_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/yssdk_error_page_query_margin_top"
+        android:fontFamily="Roboto-Regular"
+        android:layout_marginLeft="@dimen/yssdk_error_page_margin_left_right"
+        android:layout_marginRight="@dimen/yssdk_error_page_margin_left_right"
+        android:textStyle="bold"
+        android:text=""
+        android:gravity="left"
+        android:textColor="@color/black"
+        android:textSize="@dimen/yssdk_error_page_query_text_size">
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_view_result_error_suggestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/yssdk_error_page_margin_left_right"
+        android:layout_marginRight="@dimen/yssdk_error_page_query_text_size"
+        android:layout_marginTop="@dimen/yssdk_error_page_suggestion_text_view_margin_top"
+        android:text="@string/yssdk_result_error_suggestion_word"
+        android:fontFamily="Roboto-Regular"
+        android:textColor="@color/black"
+        android:textSize="@dimen/yssdk_error_page_message_text_size" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_view_check_spelling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/yssdk_error_page_suggestion_bullets_margin_top"
+        android:layout_marginLeft="@dimen/yssdk_error_page_margin_left_right"
+        android:layout_marginRight="@dimen/yssdk_error_page_margin_left_right"
+        android:text="@string/yssdk_result_error_suggestion_check_spelling"
+        android:fontFamily="Roboto-Regular"
+        android:textColor="@color/black"
+        android:textSize="@dimen/yssdk_error_page_message_text_size" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_view_result_try_more_words"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/yssdk_error_page_query_margin_top"
+        android:layout_marginLeft="@dimen/yssdk_error_page_margin_left_right"
+        android:layout_marginRight="@dimen/yssdk_error_page_margin_left_right"
+        android:text="@string/yssdk_result_error_suggestion_try_more_words"
+        android:fontFamily="Roboto-Regular"
+        android:textColor="@color/black"
+        android:textSize="@dimen/yssdk_error_page_message_text_size" >
+    </TextView>
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_web_search_button"
+        android:layout_marginTop="@dimen/yssdk_error_page_query_margin_top"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="@dimen/yssdk_error_page_margin_bottom"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/text_view_result_error_try"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/yssdk_error_page_margin_left_right"
+            android:layout_marginRight="@dimen/yssdk_error_page_try_text_view_margin_right"
+            android:text="@string/yssdk_result_error_try_word"
+            android:fontFamily="Roboto-Regular"
+            android:textColor="@color/black"
+            android:textSize="@dimen/yssdk_error_page_message_text_size" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/text_view_result_error_web_search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text_view_result_error_try"
+            android:text="@string/yssdk_result_error_web_search_button_text"
+            android:fontFamily="Roboto-Regular"
+            android:textColor="@color/share_blue"
+            android:textSize="@dimen/yssdk_error_page_message_text_size"
+            android:clickable="true">
+        </TextView>
+
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/res/layout/yssdk_result_generic_error_message.xml -->

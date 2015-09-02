@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/yahoosearchsdk-0.7.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a939fc9a1149971a15419027bf0244e67a85849a">
+        <dex dex="/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/pre-dexed/debug/classes-e98497e6a936dbe4c9483dac37700a45006c2412.jar" />
+    </item>
+    <item
+        jar="/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/pre-dexed/debug/classes-3d74413bb9468b6ea092a9f76fe5fca4bb7c8016.jar" />
+    </item>
+    <item
+        jar="/Users/mgujare/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.6/29b513697b61a2fdbc8a9c2ca5a9f2b0e63482a4/library-1.0.6.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29b513697b61a2fdbc8a9c2ca5a9f2b0e63482a4">
+        <dex dex="/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/pre-dexed/debug/library-1.0.6-1b0d6dff2e14fe5949cf02234c2c2fa8bb94833d.jar" />
+    </item>
+    <item
+        jar="/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-14a5ea1be990a8c2876d0929896b09d510ba37af.jar" />
+    </item>
+    <item
+        jar="/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/exploded-aar/YahooSearchDemo/mylibrary/unspecified/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e0828b0b3bde78b5267555294a425960adbb371c">
+        <dex dex="/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/pre-dexed/debug/classes-e4767f199190b60c77e6868afc2eec6620dbb62c.jar" />
+    </item>
+    <item
+        jar="/Users/mgujare/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.3/a85588bec3e2c4584d593d3f15df1677321bca72/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3-d2672c40eaec2ace17b3311d529776340c2fb299.jar" />
+    </item>
+    <item
+        jar="/Users/mgujare/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/mgujare/Documents/test2/SearchSDKDemos/YahooSearchDemo/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-567cdabcdc0c2ef3c67a5560516f0603a7a2840c.jar" />
+    </item>
+
+</items>

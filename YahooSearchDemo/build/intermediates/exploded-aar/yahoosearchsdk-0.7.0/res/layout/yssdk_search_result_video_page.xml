@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_result_video_page"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@null">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:paddingBottom="16dp"
+        android:background="@drawable/yssdk_local_list_item_row_one_round_bg"
+        layout="@layout/yssdk_result_generic_error_message"
+        android:visibility="gone" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:paddingBottom="16dp"
+        android:background="@drawable/yssdk_local_list_item_row_one_round_bg"
+        layout="@layout/yssdk_result_process_error_message"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/video_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:animationCache="true"
+        android:background="@null"
+        android:clickable="true"
+        android:divider="@color/yssdk_black_transparency_100"
+        android:dividerHeight="8dip"
+        android:drawSelectorOnTop="false"
+        android:fadingEdgeLength="10dip"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:scrollingCache="true"
+        android:clipToPadding="false"
+        android:paddingTop="@dimen/yssdk_results_padding_top"
+        android:paddingLeft="@dimen/yssdk_results_padding_left"
+        android:paddingRight="@dimen/yssdk_results_padding_right"
+        >
+    </ListView>
+
+</FrameLayout>
