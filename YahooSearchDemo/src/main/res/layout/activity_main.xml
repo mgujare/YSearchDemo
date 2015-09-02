@@ -16,19 +16,11 @@
         android:text=""
         android:editable="false"/>
 
-    <CheckBox
-        android:layout_width="wrap_content"
+    <TextView
+        android:layout_below="@id/selectableEditText"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Launch to Suggest"
-        android:id="@+id/launch_to_suggest"
-        android:layout_below="@id/selectableEditText" />
+        android:text="Click on Search glass"/>
 
-    <ImageView
-        android:id="@+id/imageViewSearchShare"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/launch_to_suggest"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="61dp"
-        android:src="@drawable/clear" />
 </RelativeLayout>

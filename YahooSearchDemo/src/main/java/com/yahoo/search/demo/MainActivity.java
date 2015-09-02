@@ -40,34 +40,6 @@ public class MainActivity extends Activity implements IActionMenuListener {
         SelectableEditText content = (SelectableEditText) findViewById(R.id.selectableEditText);
         content.setListener(this);
         content.setText(text);
-        
-        imageViewSearchShare = (ImageView) findViewById(R.id.imageViewSearchShare);
-        imageViewSearchShare.setOnClickListener(new OnClickListener() {
-            
-            @Override
-            public void onClick(View v) {
-                SearchToLinkActivity.IntentBuilder builder = new SearchToLinkActivity.IntentBuilder();
-                ImageFilter filter = new ImageFilter();
-                filter.color = ImageFilter.COLOR_BLUE;
-                filter.size = ImageFilter.SIZE_WIDE;
-                //filter.
-                builder.addImageVertical(filter);
-                builder.addWebVertical();
-                builder.addVertical(CustomSearchFragment.class.getName(), new Bundle());
-                builder.addLocalVertical();
-                builder.setCustomHeader(R.layout.custom_header);
-                builder.setQueryString("Paradise");
-
-                // Adding margin to the SearchActivity
-                SearchLayoutParams params = new SearchLayoutParams();
-                params.globalTopMargin = 50;
-                builder.setSearchLayoutParams(params);
-
-                Intent intent = builder.buildIntent(MainActivity.this);
-                MainActivity.this.startActivityForResult(intent, REQUEST_CODE_SEARCH_TO_SHARE);
-            }
-        });
-        launchToSuggest = (CheckBox) findViewById(R.id.launch_to_suggest);
     }
 
 
